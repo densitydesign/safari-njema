@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Junicode Condensed';
+    src: url('./fonts/junicode-boldcondensed-webfont.eot');
+    src: url('./fonts/junicode-boldcondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/junicode-boldcondensed-webfont.woff2') format('woff2'),
+         url('./fonts/junicode-boldcondensed-webfont.woff') format('woff'),
+         url('./fonts/junicode-boldcondensed-webfont.ttf') format('truetype'),
+         url('./fonts/junicode-boldcondensed-webfont.svg#junicodeboldcondensed') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Junicode Condensed';
+    src: url('./fonts/junicode-bolditaliccondensed-webfont.eot');
+    src: url('./fonts/junicode-bolditaliccondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/junicode-bolditaliccondensed-webfont.woff2') format('woff2'),
+         url('./fonts/junicode-bolditaliccondensed-webfont.woff') format('woff'),
+         url('./fonts/junicode-bolditaliccondensed-webfont.ttf') format('truetype'),
+         url('./fonts/junicode-bolditaliccondensed-webfont.svg#junicodebolditaliccondensed') format('svg');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'Junicode Condensed';
+    src: url('./fonts/junicode-regularcondensed-webfont.eot');
+    src: url('./fonts/junicode-regularcondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/junicode-regularcondensed-webfont.woff2') format('woff2'),
+         url('./fonts/junicode-regularcondensed-webfont.woff') format('woff'),
+         url('./fonts/junicode-regularcondensed-webfont.ttf') format('truetype'),
+         url('./fonts/junicode-regularcondensed-webfont.svg#junicoderegularcondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Text Hero Condensed';
+  src: url("./fonts/texgyreheroscn-regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Text Hero Condensed';
+  src: url("./fonts/texgyreheroscn-bold.otf");
+  font-weight: bold;
+  font-style: normal;
+}
