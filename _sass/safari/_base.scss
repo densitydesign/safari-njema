@@ -131,7 +131,6 @@ a {
  */
 blockquote {
   @include relative-font-size(1.5);
-  letter-spacing: -1px;
   font-style: italic;
 
   > :last-child {
