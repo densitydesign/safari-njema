@@ -1,0 +1,25 @@
+#safari--cover {
+  background: url("../assets/images/maputo.jpg");
+  background-size: cover;
+  color: $grey-color-light;
+  width: 100vw;
+  height: 60vh;
+  position: relative;
+  left: calc(-50vw + 50%);
+  top: -30px;
+  padding: 10vh 0;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
+#safari--cover .safari--description {
+  width: 1140px;
+  margin: auto;
+  padding: 0 60px;
+  font-size: $big-font-size;
+}
+
+#safari--cover .safari--description blockquote {
+  font-size: $big-font-size;
+}

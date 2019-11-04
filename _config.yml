@@ -29,6 +29,18 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
+defaults:
+  - scope:
+      path: ""
+      type: "questions"
+    values:
+      layout: "post"
+      is_question: true
+  - scope:
+      path: ""
+    values:
+      layout: "intro"
+
 # Build settings
 plugins:
   - jekyll-feed
