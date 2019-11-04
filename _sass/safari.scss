@@ -3,14 +3,14 @@
 // Define defaults for each variable.
 
 $base-font-family: "Duospace", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
-$base-font-size:   15px !default;
-$base-font-weight: 400 !default;
-$small-font-size:  $base-font-size * 1 !default;
-$big-font-size:    $base-font-size * 1.3 !default;
+$base-font-size:   16px !default;
+$base-font-weight: normal !default;
+$small-font-size:  $base-font-size * 1.2 !default;
+$big-font-size:    $base-font-size * 1.4 !default;
 $base-line-height: 1.5 !default;
 
-$title-font-family: "Sporting Grotesque",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
-$title-font-weight: bold;
+$title-font-family: "HK Grotesk", "Times New Roman", serif !default;
+$title-font-weight: 400 !default;
 
 $spacing-unit:     30px !default;
 
@@ -19,8 +19,8 @@ $background-color: #D0CDD7 !default;
 $brand-color:      #115659 !default;
 
 $grey-color:       #828282 !default;
-$grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark:  #115659 !default;
+$grey-color-light: lighten($background-color, 5%) !default;
+$grey-color-dark:  darken($background-color, 20%) !default;
 
 $table-text-align: left !default;
 
@@ -52,5 +52,6 @@ $on-laptop:        1140px !default;
   "safari/base",
   "safari/layout",
   "safari/syntax-highlighting",
-  "safari/home"
+  "safari/home",
+  "safari/question"
 ;

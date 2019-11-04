@@ -1,7 +1,6 @@
 #safari--cover {
   background: url("../assets/images/maputo.jpg");
   background-size: cover;
-  color: $grey-color-light;
   width: 100vw;
   height: 60vh;
   position: relative;
@@ -18,6 +17,7 @@
   margin: auto;
   padding: 0 60px;
   font-size: $big-font-size;
+  color: $brand-color;
 }
 
 #safari--cover .safari--description blockquote {

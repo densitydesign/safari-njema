@@ -17,20 +17,20 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
-  {%- if site.posts.size > 0 -%}
+  {%- if site.questions.size > 0 -%}
     <ul class="post-list">
-      {%- for post in site.posts -%}
+      {%- for question in site.questions -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <span class="post-meta">{{ question.date | date: date_format }}</span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
+            {{ question.title | escape }}
           </a>
         </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
+        <p>
+          {{ question.excerpt }}
+        </p>
       </li>
       {%- endfor -%}
     </ul>

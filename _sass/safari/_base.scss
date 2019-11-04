@@ -46,7 +46,7 @@ ul, ol, dl, figure,
  * `main` element
  */
 main {
-  display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
+  display: block;
 }
 
 
@@ -130,8 +130,7 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: $grey-color-light;
-  @include relative-font-size(1.125);
+  @include relative-font-size(1.5);
   letter-spacing: -1px;
   font-style: italic;
 
@@ -174,6 +173,7 @@ pre {
  * Wrapper
  */
 .wrapper {
+  grid-column: 2 /6;
   max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
   max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
   margin-right: auto;
