@@ -2,14 +2,18 @@
   background: url("../assets/images/maputo.jpg");
   background-size: cover;
   width: 100vw;
-  height: 60vh;
+  height: 70vh;
   position: relative;
   left: calc(-50vw + 50%);
   top: -30px;
   padding: 10vh 0;
   display: flex;
   align-items: center;
+  justify-content: center;
   vertical-align: middle;
+  color: #FFFFFF;
+  @include relative-font-size(2.5);
+  margin-bottom: $spacing-unit * 1.5;
 }
 
 #safari--cover .safari--description {
@@ -26,4 +30,49 @@
 
 #safari--partners {
   margin-bottom: $spacing-unit * 2;
+}
+
+.home blockquote {
+  margin-bottom: $spacing-unit;
+}
+
+#index {
+  margin-top: $spacing-unit * 2;
+}
+
+.post-list {
+  width: 100%;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.post-list > li:first-child {
+  border-top: 1px solid $grey-color-dark;
+}
+
+.post-list > li {
+  display: flex;
+  padding: $spacing-unit / 1.5 0;
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+  border-bottom: 1px solid $grey-color-dark;
+  @include media-query($on-palm) {
+    padding: $spacing-unit / 2 0;
+    display: block;
+  }
+  @include relative-font-size(1.1);
+}
+
+.post-list > li > * {
+  width: 50%;
+  margin-bottom: 0;
+  @include media-query($on-palm) {
+   width: 100%;
+  }
+}
+
+.post-list > li::after {
+  content: "⟶";
 }

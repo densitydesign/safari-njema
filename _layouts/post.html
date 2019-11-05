@@ -3,13 +3,13 @@ layout: default
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-  </header>
-
   <main class="question__visualization">
     {% include_relative {{ page.number | prepend: "visualizations/visualization0" | append: ".html" }} %}
   </main>
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+  </header>
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
@@ -21,3 +21,25 @@ layout: default
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+
+<div id="index" class="minified">
+  <h3>Other insights:</h3>
+  {%- if site.questions.size > 0 -%}
+    <ul class="post-list">
+      {%- for question in site.questions -%}
+        {%- if question.title != page.title -%}
+          <li>
+            <h3>
+              <a class="post-link" href="{{ question.url | relative_url }}">
+                {{ question.title | escape }}
+              </a>
+            </h3>
+            <p>
+              {{ question.author }}
+            </p>
+          </li>
+        {%- endif -%}
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+</div>

@@ -1,5 +1,19 @@
 .question__visualization {
-  width: 100%;
+  background: $background-color;
+  border-top: 1px solid $grey-color-dark;
+  border-bottom: 1px solid $grey-color-dark;
+  width: 100vw;
+  position: relative;
+  left: calc(-50vw + 50%);
   margin-top: $spacing-unit * 2;
   margin-bottom: $spacing-unit * 2;
+}
+
+.minified li {
+  @include relative-font-size(1);
+  padding: $spacing-unit / 3 0;
+}
+
+.minified li > *, .minified a {
+  color: $grey-color-dark;
 }
