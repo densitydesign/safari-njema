@@ -1,6 +1,6 @@
 ---
 number: 1
-layout: post
+layout: visualization
 title: "Mapping connections between bairros in Maputo"
 author: City of Maputo
 cover: http://learndataviz.web.unc.edu/files/2018/04/nodelink.png

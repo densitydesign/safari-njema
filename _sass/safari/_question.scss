@@ -9,11 +9,24 @@
   margin-bottom: $spacing-unit * 2;
 }
 
+.post-content > blockquote {
+  @include relative-font-size(2);
+  color: $brand-color;
+}
+
 .minified li {
-  @include relative-font-size(1);
-  padding: $spacing-unit / 3 0;
+  @include relative-font-size(0.9);
+  padding: $spacing-unit / 4 0;
 }
 
 .minified li > *, .minified a {
-  color: $grey-color-dark;
+}
+
+.footnotes {
+  margin-top: $spacing-unit * 2;
+  margin-bottom: $spacing-unit * 4;
+}
+
+.footnotes *, .footnotes p {
+  @include relative-font-size(0.9);
 }
