@@ -8,6 +8,8 @@ url: "https://densitydesign.github.io" # the base hostname & protocol for your s
 twitter_username: jekyllrb
 github_username:  jekyll
 markdown: kramdown
+kramdown:
+  parse_block_html: true
 
 collections:
   questions:
