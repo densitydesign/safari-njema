@@ -3,26 +3,24 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    <!-- <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    <p>From Informal Mobility to Mobility Policies through Big Data Analysis</p> -->
 
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
+      <div class="footer-col footer-col-2">
+        <p>Polisocial Award 2018</p>
       </div>
+
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
+            <img src="{{ "/assets/images/logos/polimi.svg" | relative_url }}" height="50">
+          </li>
         </ul>
       </div>
 
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
+      <div class="footer-col footer-col-3">
+        <p>{{- site.description | escape -}}</p>
       </div>
 
     </div>

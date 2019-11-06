@@ -1,8 +1,7 @@
 title: Safari Njema
-author: Polisocial logo
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This project has received funding from the European Union’s Seventh Framework Programme for research, technological development and demonstration under grant agreement n° 288964
+  POLISOCIAL è il programma di impegno e responsabilità sociale @Politecnico di Milano. www.polisocial.polimi.it
 baseurl: "/safari-njema" # the subpath of your site, e.g. /blog
 url: "https://densitydesign.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb

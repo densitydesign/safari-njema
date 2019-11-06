@@ -5,7 +5,7 @@ title: Understanding commuters and non-commuters
 author: Department of Mathematics
 cover: http://www.mappery.com/maps/Maputo-City-Map.mediumthumb.jpg
 ---
-*
+* Table of Contents
 {:toc}
 
 ## Title 1
@@ -14,9 +14,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 > This is a citation or an important concept of your research.
 
 ## Title 2
-Consequat id porta nibh venenatis. Eros in cursus turpis massa tincidunt dui ut. Sed adipiscing diam donec adipiscing tristique risus nec. Netus et malesuada fames ac turpis egestas integer eget aliquet. Maecenas sed enim ut sem viverra aliquet eget sit. Et magnis dis parturient montes nascetur ridiculus mus. Facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum. Integer vitae justo eget magna fermentum iaculis eu. Purus sit amet volutpat consequat mauris nunc congue nisi.
+Consequat id porta nibh venenatis. Eros in cursus turpis massa tincidunt dui ut. Sed adipiscing diam donec adipiscing tristique risus nec. Netus et malesuada fames ac turpis egestas integer eget aliquet. Maecenas sed enim ut sem viverra aliquet eget sit. Et magnis dis parturient montes nascetur ridiculus mus. Facilisi etiam dignissim diam quis[^2] enim lobortis scelerisque fermentum. Integer vitae justo eget magna fermentum iaculis eu. Purus sit amet volutpat consequat mauris nunc congue nisi.
 
 ### Title 3
 Orci phasellus egestas tellus rutrum tellus pellentesque. Enim neque volutpat ac tincidunt vitae semper quis. Cras sed felis eget velit aliquet. Mauris cursus mattis molestie a iaculis at erat.
 
-[^1]: This is a footnote
+[^1]: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+[^2]: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

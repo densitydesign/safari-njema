@@ -8,6 +8,12 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
+sup {
+  @include relative-font-size(0.8);
+  font-family: $title-font-family;
+  weight: 700;
+}
+
 button {
   background: $grey-color-light;
   padding: $spacing-unit / 3 $spacing-unit;
@@ -189,7 +195,6 @@ pre {
  * Wrapper
  */
 .wrapper {
-  grid-column: 2 /6;
   max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
   max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
   margin-right: auto;

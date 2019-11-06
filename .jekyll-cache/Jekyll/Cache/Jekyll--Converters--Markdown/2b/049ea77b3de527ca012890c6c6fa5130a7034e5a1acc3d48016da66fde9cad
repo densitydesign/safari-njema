@@ -1,4 +1,4 @@
-I""	<ul id="markdown-toc">
+I"m<ul id="markdown-toc">
   <li><a href="#title-1" id="markdown-toc-title-1">Title 1</a></li>
   <li><a href="#title-2" id="markdown-toc-title-2">Title 2</a>    <ul>
       <li><a href="#title-3" id="markdown-toc-title-3">Title 3</a></li>
@@ -14,7 +14,7 @@
 </blockquote>
 
 <h2 id="title-2">Title 2</h2>
-<p>Consequat id porta nibh venenatis. Eros in cursus turpis massa tincidunt dui ut. Sed adipiscing diam donec adipiscing tristique risus nec. Netus et malesuada fames ac turpis egestas integer eget aliquet. Maecenas sed enim ut sem viverra aliquet eget sit. Et magnis dis parturient montes nascetur ridiculus mus. Facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum. Integer vitae justo eget magna fermentum iaculis eu. Purus sit amet volutpat consequat mauris nunc congue nisi.</p>
+<p>Consequat id porta nibh venenatis. Eros in cursus turpis massa tincidunt dui ut. Sed adipiscing diam donec adipiscing tristique risus nec. Netus et malesuada fames ac turpis egestas integer eget aliquet. Maecenas sed enim ut sem viverra aliquet eget sit. Et magnis dis parturient montes nascetur ridiculus mus. Facilisi etiam dignissim diam quis<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup> enim lobortis scelerisque fermentum. Integer vitae justo eget magna fermentum iaculis eu. Purus sit amet volutpat consequat mauris nunc congue nisi.</p>
 
 <h3 id="title-3">Title 3</h3>
 <p>Orci phasellus egestas tellus rutrum tellus pellentesque. Enim neque volutpat ac tincidunt vitae semper quis. Cras sed felis eget velit aliquet. Mauris cursus mattis molestie a iaculis at erat.</p>
@@ -22,7 +22,10 @@
 <div class="footnotes">
   <ol>
     <li id="fn:1">
-      <p>This is a footnote <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
     </li>
   </ol>
 </div>
