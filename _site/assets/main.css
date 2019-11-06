@@ -351,7 +351,7 @@ table td { border: 1px solid #dddbe2; }
 
 .post-list > li::after { content: "⟶"; }
 
-.question__visualization { grid-column: 1 / 5; background: #D0CDD7; border-top: 1px solid #b5b1c0; border-bottom: 1px solid #b5b1c0; width: 100vw; position: relative; left: calc(-50vw + 50%); margin-top: 60px; margin-bottom: 60px; }
+.question__visualization { grid-column: 1 / 5; background: #D0CDD7; border-top: 1px solid #b5b1c0; border-bottom: 1px solid #b5b1c0; width: 100vw; position: relative; left: calc(-50vw + 50%); margin-top: 60px; margin-bottom: 60px; padding: 30px 0; }
 
 .post-content > blockquote { font-size: 32px; color: #115659; }
 
