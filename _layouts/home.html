@@ -3,7 +3,10 @@ layout: default
 ---
 
 <div id="safari--cover">
-  <h1>SAFARI NJEMA</h1>
+  <div>
+    <h1 class="post-title">SAFARI NJEMA</h1>
+    <h2>From informal mobility to mobility policies through big data analysis</h2>
+  </div>
 </div>
 
 <div class="home">
@@ -14,8 +17,10 @@ layout: default
   {{ content }}
 
   <a href="{{ "/about/" | relative_url }}"><button>Read more about the project</button></a>
+  <a href="https://youtu.be/sliSRdTTFGg" target="_blank"><button>Watch the video</button></a>
 
   <div id="index">
+    <h2>Research insights</h2>
     {%- if site.questions.size > 0 -%}
       <ul class="post-list">
         {%- for question in site.questions -%}
@@ -26,7 +31,7 @@ layout: default
             </a>
           </h3>
           <p>
-            {{ question.author }}
+            {{ question.department }}
           </p>
         </li>
         {%- endfor -%}

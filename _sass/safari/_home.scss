@@ -1,19 +1,36 @@
 #safari--cover {
-  background: url("../assets/images/maputo.jpg");
-  background-size: cover;
+  image-rendering: pixelated;
+  background-image: url("../assets/images/maputo-4.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 100% 80%;
   width: 100vw;
-  height: 70vh;
+  height: 80vh;
   position: relative;
   left: calc(-50vw + 50%);
-  top: -30px;
-  padding: 10vh 0;
+  top: -$spacing-unit * 3.5;
   display: flex;
   align-items: center;
   justify-content: center;
   vertical-align: middle;
+  flex-wrap: wrap;
   color: #FFFFFF;
-  @include relative-font-size(2.5);
-  margin-bottom: $spacing-unit * 1.5;
+
+  .post-title {
+    text-align: center;
+    @include relative-font-size(6);
+    color: #FFFFFF;
+    text-shadow: 0 3px $grey-color-dark;
+    font-weight: 400;
+    width: 100%;
+    margin: 0;
+  }
+
+  h2 {
+    @include relative-font-size(2);
+    width: 100%;
+    color: darken($brand-color, 15%);
+  }
 }
 
 #safari--cover .safari--description {
