@@ -216,11 +216,9 @@ table td { border: 1px solid #dddbe2; }
 
 .post-content .main-post-content .footnotes { grid-column: 1 / 4; margin-bottom: 0; }
 
-.post-content #markdown-toc { list-style: none; padding: 0; margin: 0; font-family: "HK Grotesk", "Helvetica", "Arial", serif; font-weight: 700; position: sticky; top: 90px; font-size: 17.6px; }
+.post-content .main-post-content .footnotes * { font-size: 12.8px; color: #000097; }
 
-.post-content #markdown-toc li { margin-bottom: 10px; }
-
-.post-content #markdown-toc ul { list-style: none; margin-left: 15px; font-weight: 400; }
+.post-content .main-post-content .footnotes p { color: #0000e3; }
 
 /** Syntax highlighting styles */
 .highlight { background: #fff; }
