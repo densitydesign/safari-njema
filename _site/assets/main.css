@@ -89,7 +89,7 @@ table td { border: 1px solid #6f6f6f; }
 
 #nav button { font-size: 16.5px; font-family: "HK Grotesk", "Helvetica", "Arial", serif; text-transform: none; }
 
-#nav #home { background: #FFFF00; color: #111111; border-color: #0000e3; }
+#nav #home { background: #111111; color: #FF0000; border-color: #FF0000; }
 
 #nav #polisocial { float: right; }
 
