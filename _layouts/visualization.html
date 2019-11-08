@@ -7,9 +7,11 @@ layout: default
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
   </header>
 
-  <main class="question__visualization">
-    {% include_relative {{ page.number | prepend: "visualizations/visualization0" | append: ".html" }} %}
-  </main>
+  {%- if page.type == "visualization" -%}
+    <main class="question__visualization">
+      {% include_relative {{ page.number | prepend: "visualizations/visualization0" | append: ".html" }} %}
+    </main>
+  {%- endif -%}
 
   <div class="post-content e-content" itemprop="articleBody">
     <aside class="post-meta">

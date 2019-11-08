@@ -1,9 +1,10 @@
 ---
 number: 1
 layout: visualization
-title: "Mapping connections between bairros in Maputo"
+type: visualization
+title: "Volume of people using four transport lines in Maputo"
 department: Department of Mathematics
-authors: Jada Hart, Tj Blackwell, Lana Buckley, Alina Maxwell, Ayaana Guy, Darragh Pratt
+authors: Celeste Principi
 cover: http://learndataviz.web.unc.edu/files/2018/04/nodelink.png
 ---
 > A brief introduction consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Ac tincidunt vitae semper quis.

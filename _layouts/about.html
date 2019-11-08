@@ -12,7 +12,7 @@ layout: default
   <div class="safari--partners">
     <h2>Partners</h2>
     {%- for partner in site.data.partners -%}
-      <div>
+      <div class="safari--logos">
         <img src="{{ partner.logo | relative_url }}" alt="{{ partner.name }}">
       </div>
     {%- endfor -%}

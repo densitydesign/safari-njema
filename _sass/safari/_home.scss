@@ -1,9 +1,9 @@
 #safari--cover {
   image-rendering: pixelated;
-  background-image: url("../assets/images/maputo-4.jpg");
+  background-image: url("../assets/images/great-maputo.png");
   background-size: auto;
   background-repeat: no-repeat;
-  background-position: 100% 80%;
+  background-position: center;
   width: 100vw;
   height: 80vh;
   position: relative;
@@ -19,17 +19,25 @@
   .post-title {
     text-align: center;
     @include relative-font-size(6);
-    color: #FFFFFF;
-    text-shadow: 0 3px $grey-color-dark;
-    font-weight: 400;
-    width: 100%;
-    margin: 0;
+    -webkit-text-stroke-color: #FFFFFF;
+    -webkit-text-stroke-width: 1px;
+    color: $background-color;
+    font-weight: 700;
+    width: 90%;
+    margin: auto;
   }
 
   h2 {
     @include relative-font-size(2);
-    width: 100%;
-    color: darken($brand-color, 15%);
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    color: #FFFFFF;
+    text-shadow:
+    -2px -2px 0 #000,
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000;
   }
 }
 
@@ -64,7 +72,7 @@
 }
 
 .post-list > li:first-child {
-  border-top: 1px solid $grey-color-dark;
+  border-top: 1px solid $grey-color-light;
 }
 
 .post-list > li {
@@ -74,7 +82,7 @@
   background-size: 50%;
   background-repeat: no-repeat;
   margin-bottom: 0;
-  border-bottom: 1px solid $grey-color-dark;
+  border-bottom: 1px solid $grey-color-light;
   @include media-query($on-palm) {
     padding: $spacing-unit / 2 0;
     display: block;

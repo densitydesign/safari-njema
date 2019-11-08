@@ -16,7 +16,7 @@ sup {
 }
 
 button {
-  background: $grey-color-light;
+  background: $background-color;
   padding: $spacing-unit / 3 $spacing-unit;
   border-radius: $spacing-unit;
   border: 1px solid $brand-color;
@@ -40,7 +40,7 @@ button:hover {
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
-  background-color: $grey-color-light;
+  background-color: $background-color;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
@@ -208,8 +208,8 @@ pre {
   @include media-query($on-laptop) {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
     max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-    padding-right: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+    padding-right: $spacing-unit / 1.5;
+    padding-left: $spacing-unit / 1.5;
   }
 }
 
