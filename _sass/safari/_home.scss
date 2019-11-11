@@ -1,6 +1,6 @@
 #safari--cover {
   image-rendering: pixelated;
-  background-image: url("../assets/images/great-maputo.png");
+  background-image: url("../assets/images/great-maputo-2.png");
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
@@ -72,7 +72,7 @@
 }
 
 .post-list > li:first-child {
-  border-top: 1px solid $grey-color-light;
+  border-top: 1px solid $grey-color-dark;
 }
 
 .post-list > li {
@@ -82,7 +82,7 @@
   background-size: 50%;
   background-repeat: no-repeat;
   margin-bottom: 0;
-  border-bottom: 1px solid $grey-color-light;
+  border-bottom: 1px solid $grey-color-dark;
   @include media-query($on-palm) {
     padding: $spacing-unit / 2 0;
     display: block;
