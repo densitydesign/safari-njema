@@ -25,8 +25,8 @@ $spacing-unit:     30px !default;
 
 $text-color: darken(peachpuff, 80%);
 $background-color: lighten(peachpuff, 5%);
-$brand-color: #FF0000;
-$link-color: #ff009c;
+$brand-color: #ff009c;
+$link-color: lighten(adjust-hue(#ff009c, 10deg), 20%);
 
 $grey-color:       peachpuff !default;
 $grey-color-light: lighten($grey-color, 10%) !default;

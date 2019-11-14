@@ -19,9 +19,9 @@
   }
 
   #home {
-    background: $background-color;
-    color: #FF0000;
-    border-color: #FF0000;
+    background: $brand-color;
+    color: $background-color;
+    border-color: $brand-color;
   }
 
   #polisocial {
@@ -211,7 +211,8 @@
   }
 
   img {
-    height: 90px;
+    width: auto;
+    max-height: 90px;
   }
 }
 
@@ -235,7 +236,7 @@
 
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
-  color: $grey-color-light;
+  color: $text-color;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }
@@ -443,7 +444,7 @@
 
       * {
         @include relative-font-size(0.8);
-        color: darken($brand-color, 15%);
+        color: darken($link-color, 15%);
       }
 
       p {

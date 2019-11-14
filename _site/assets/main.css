@@ -4,9 +4,9 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { m
 
 sup { font-size: 12px; font-family: "HK Grotesk", "Helvetica", "Arial", serif; weight: 700; }
 
-button { background: #ffe7d3; padding: 10px 30px; border-radius: 30px; border: 1px solid #FF0000; color: #FF0000; font-family: "Duospace", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-size: 15px; font-weight: bold; text-transform: uppercase; transition: all .3s ease; }
+button { background: #ffe7d3; padding: 10px 30px; border-radius: 30px; border: 1px solid #ff009c; color: #ff009c; font-family: "Duospace", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-size: 15px; font-weight: bold; text-transform: uppercase; transition: all .3s ease; }
 
-button:hover { cursor: pointer; background: #FF0000; color: #ffe7d3; }
+button:hover { cursor: pointer; background: #ff009c; color: #ffe7d3; }
 
 /** Basic styling */
 body { font: normal 15px/1.5 "Duospace", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; color: #200f00; background-color: #ffe7d3; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
@@ -31,12 +31,12 @@ ul, ol { margin-left: 30px; }
 li > ul, li > ol { margin-bottom: 0; }
 
 /** Headings */
-h1, h2, h3, h4, h5, h6 { color: #FF0000; font-family: "HK Grotesk", "Helvetica", "Arial", serif; font-weight: 400; }
+h1, h2, h3, h4, h5, h6 { color: #ff009c; font-family: "HK Grotesk", "Helvetica", "Arial", serif; font-weight: 400; }
 
 /** Links */
-a { color: #ff009c; text-decoration: none; }
+a { color: #ff66aa; text-decoration: none; }
 
-a:visited { color: #ff009c; }
+a:visited { color: #ff66aa; }
 
 a:hover { color: #200f00; text-decoration: underline; }
 
@@ -85,11 +85,11 @@ table td { border: 1px solid #fff5ec; }
 /** navigation
 *
 */
-#nav { color: #FF0000; z-index: 9999; position: sticky; height: 41px; width: 100%; top: 0; padding: 15px 0; border-top: 1px solid #FF0000; }
+#nav { color: #ff009c; z-index: 9999; position: sticky; height: 41px; width: 100%; top: 0; padding: 15px 0; border-top: 1px solid #ff009c; }
 
 #nav button { font-size: 16.5px; font-family: "HK Grotesk", "Helvetica", "Arial", serif; text-transform: none; }
 
-#nav #home { background: #ffe7d3; color: #FF0000; border-color: #FF0000; }
+#nav #home { background: #ff009c; color: #ffe7d3; border-color: #ff009c; }
 
 #nav #polisocial { float: right; }
 
@@ -148,7 +148,7 @@ table td { border: 1px solid #fff5ec; }
 
 .safari--partners div p { margin: 0; }
 
-.safari--partners img { height: 90px; }
+.safari--partners img { width: auto; max-height: 90px; }
 
 /** Site footer */
 .site-footer { padding: 30px 0; }
@@ -157,7 +157,7 @@ table td { border: 1px solid #fff5ec; }
 
 .contact-list, .social-media-list { list-style: none; margin-left: 0; }
 
-.footer-col-wrapper { font-size: 14.0625px; color: #fff5ec; margin-left: -15px; }
+.footer-col-wrapper { font-size: 14.0625px; color: #200f00; margin-left: -15px; }
 
 .footer-col { float: left; margin-bottom: 15px; padding-left: 15px; }
 
@@ -232,9 +232,9 @@ table td { border: 1px solid #fff5ec; }
 
 .post-content .main-post-content .footnotes { grid-column: 1 / 4; margin-bottom: 0; }
 
-.post-content .main-post-content .footnotes * { font-size: 12px; color: #b30000; }
+.post-content .main-post-content .footnotes * { font-size: 12px; color: #ff1a80; }
 
-.post-content .main-post-content .footnotes p { color: #FF0000; }
+.post-content .main-post-content .footnotes p { color: #ff009c; }
 
 /** Syntax highlighting styles */
 .highlight { background: #fff; }
@@ -359,13 +359,13 @@ table td { border: 1px solid #fff5ec; }
 
 .highlight .il { color: #099; }
 
-#safari--cover { image-rendering: pixelated; background-image: url("../assets/images/great-maputo-2.png"); background-size: auto; background-repeat: no-repeat; background-position: center; width: 100vw; height: 80vh; position: relative; left: calc(-50vw + 50%); top: -105px; display: flex; align-items: center; justify-content: center; vertical-align: middle; flex-wrap: wrap; color: #FFFFFF; }
+#safari--cover { image-rendering: pixelated; background-image: url("../assets/images/great-maputo-cover.png"); background-size: auto; background-repeat: no-repeat; background-position: center; width: 100vw; height: 80vh; position: relative; left: calc(-50vw + 50%); top: -105px; display: flex; align-items: center; justify-content: center; vertical-align: middle; flex-wrap: wrap; color: #FFFFFF; }
 
-#safari--cover .post-title { text-align: center; font-size: 90px; -webkit-text-stroke-color: #FFFFFF; -webkit-text-stroke-width: 1px; color: #ffe7d3; font-weight: 700; width: 90%; margin: auto; }
+#safari--cover .post-title { text-align: center; font-size: 90px; -webkit-text-stroke-color: #ff009c; -webkit-text-stroke-width: 1px; color: #ff66aa; font-weight: 700; width: 90%; margin: auto; }
 
-#safari--cover h2 { font-size: 30px; width: 90%; text-align: center; margin: auto; color: #FFFFFF; text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px  2px 0 #000, 2px  2px 0 #000; }
+#safari--cover h2 { font-size: 30px; width: 95%; text-align: center; margin: auto; color: #200f00; line-height: 1.1; text-shadow: 0 0 2px #ffe7d3; }
 
-#safari--cover .safari--description { width: 1140px; margin: auto; padding: 0 60px; font-size: 21px; color: #FF0000; }
+#safari--cover .safari--description { width: 1140px; margin: auto; padding: 0 60px; font-size: 21px; color: #ff009c; }
 
 #safari--cover .safari--description blockquote { font-size: 21px; }
 
@@ -389,9 +389,13 @@ table td { border: 1px solid #fff5ec; }
 
 .post-list > li::after { content: "⟶"; }
 
+.home-content blockquote p { column-count: 1; margin-bottom: 60px; }
+
+.home-content p { column-count: 2; column-gap: 30px; margin-bottom: 60px; }
+
 .question__visualization { grid-column: 1 / 5; border-top: 1px solid #ffbf86; margin-top: 60px; padding: 30px 0; }
 
-.post-content > blockquote { font-size: 30px; color: #FF0000; }
+.post-content > blockquote { font-size: 30px; color: #ff009c; }
 
 .minified li { font-size: 13.5px; padding: 7.5px 0; }
 
