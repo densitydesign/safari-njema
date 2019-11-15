@@ -5,7 +5,6 @@ type: visualization
 title: Mapping connections between origins and destinations between bairros
 department: Department of Architecture and Urban Studies
 authors: Jada Hart, Tj Blackwell, Lana Buckley, Alina Maxwell, Ayaana Guy, Darragh Pratt
-cover: http://www.mappery.com/maps/Maputo-City-Map.mediumthumb.jpg
 ---
 > A brief introduction to the research insight.
 

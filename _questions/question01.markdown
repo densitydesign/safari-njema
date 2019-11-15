@@ -5,7 +5,6 @@ type: visualization
 title: "Volume of people using four transport lines in Maputo"
 department: Department of Mathematics
 authors: Celeste Principi
-cover: http://learndataviz.web.unc.edu/files/2018/04/nodelink.png
 ---
 > A brief introduction consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Ac tincidunt vitae semper quis.
 
