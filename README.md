@@ -9,7 +9,7 @@ Meta tags (between the ---):
 - department: The Department or Entity that coordinated the research effort.
 - authors: Names of the authors that worked on the research effort.
 
-This is the template:
+This is the template, copy and paste it in your new `question0X.markdown` file:
 
 ```
 ---
