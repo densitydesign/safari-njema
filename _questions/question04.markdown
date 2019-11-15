@@ -2,7 +2,7 @@
 number: X
 layout: visualization
 type: post
-title: Calculating and visualizing iso-chrone lines in Maputo
+title: This is a test for automatic deployment
 department: Department of Electronics, Information And Bioengineering
 authors: Jada Hart, Tj Blackwell, Lana Buckley, Alina Maxwell, Ayaana Guy, Darragh Pratt
 ---
