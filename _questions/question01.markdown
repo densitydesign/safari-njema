@@ -5,6 +5,7 @@ type: visualization
 title: "Organizing a 'Map-athon': first-hand experience of the transportation system in Maputo"
 department: Department of Mathematics, Department of Design
 authors: Anna Calissano, Paola Riva, Elena Castelli, Andrea Benedetti (design and development), Tommaso Elli (development)
+permalink: /mapathon/
 ---
 As a first experiment, a small map-athon was organized in Maputo within the research team to have a first hand experience of the mobility systems in the city. For the Mobility Week organized in September, members of the research teams explored the city with formal and informal transportations systems through the whole week, gathering data both from the platforms provided by the research partners, and from a simple web app developed for this purpose.
 
