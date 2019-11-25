@@ -26,6 +26,7 @@ button {
   font-weight: bold;
   text-transform: uppercase;
   transition: all .3s ease;
+  margin-bottom: $spacing-unit / 2;
 }
 
 button:hover {

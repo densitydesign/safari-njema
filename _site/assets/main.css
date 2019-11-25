@@ -4,7 +4,7 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { m
 
 sup { font-size: 12px; font-family: "HK Grotesk", "Helvetica", "Arial", serif; weight: 700; }
 
-button { background: #ffe7d3; padding: 10px 30px; border-radius: 30px; border: 1px solid #ff009c; color: #ff009c; font-family: "Duospace", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-size: 15px; font-weight: bold; text-transform: uppercase; transition: all .3s ease; }
+button { background: #ffe7d3; padding: 10px 30px; border-radius: 30px; border: 1px solid #ff009c; color: #ff009c; font-family: "Duospace", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-size: 15px; font-weight: bold; text-transform: uppercase; transition: all .3s ease; margin-bottom: 15px; }
 
 button:hover { cursor: pointer; background: #ff009c; color: #ffe7d3; }
 
@@ -392,6 +392,8 @@ table td { border: 1px solid #fff5ec; }
 .home-content blockquote p { column-count: 1; margin-bottom: 60px; }
 
 .home-content p { column-count: 2; column-gap: 30px; margin-bottom: 60px; }
+
+@media screen and (max-width: 768px) { .home-content p { column-count: 1; } }
 
 .question__visualization { grid-column: 1 / 5; border-top: 1px solid #ffbf86; margin-top: 60px; padding: 30px 0; }
 

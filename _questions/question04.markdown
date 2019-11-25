@@ -1,5 +1,5 @@
 ---
-number: X
+number: 4
 layout: visualization
 type: post
 title: This is a test for automatic deployment

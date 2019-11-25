@@ -2,9 +2,9 @@
 number: 1
 layout: visualization
 type: visualization
-title: "Volume of people using four transport lines in Maputo"
-department: Department of Mathematics
-authors: Celeste Principi
+title: "Map-athon: first-hand experience of the transportation system"
+department: Department of Mathematics, Department of Design
+authors: Anna Calissano, Paola Riva, Elena Castelli, Zaira, Andrea Benedetti (visualization)
 ---
 > A brief introduction consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Ac tincidunt vitae semper quis.
 
