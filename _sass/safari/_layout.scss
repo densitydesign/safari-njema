@@ -436,6 +436,10 @@
     blockquote p {
       @include relative-font-size(1.2);
       line-height: 1.2;
+
+      em {
+        color: $brand-color;
+      }
     }
 
     .footnotes {

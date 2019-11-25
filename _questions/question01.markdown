@@ -2,14 +2,22 @@
 number: 1
 layout: visualization
 type: visualization
-title: "Map-athon: first-hand experience of the transportation system"
+title: "Organizing a 'Map-athon': first-hand experience of the transportation system in Maputo"
 department: Department of Mathematics, Department of Design
-authors: Anna Calissano, Paola Riva, Elena Castelli, Zaira, Andrea Benedetti (visualization)
+authors: Anna Calissano, Paola Riva, Elena Castelli, Andrea Benedetti (design and development), Tommaso Elli (development)
 ---
-> A brief introduction consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Ac tincidunt vitae semper quis.
+As a first experiment, a small map-athon was organized in Maputo within the research team to have a first hand experience of the mobility systems in the city. For the Mobility Week organized in September, members of the research teams explored the city with formal and informal transportations systems through the whole week, gathering data both from the platforms provided by the research partners, and from a simple web app developed for this purpose.
 
-## This is a subtitle
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Ac tincidunt vitae semper quis. Urna et pharetra pharetra massa massa ultricies mi quis. Volutpat consequat mauris nunc congue nisi vitae suscipit tellus. Mi tempus imperdiet nulla malesuada pellentesque. Suspendisse interdum consectetur libero id faucibus. Ut diam quam nulla porttitor massa id neque aliquam vestibulum. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Nunc sed augue lacus viverra vitae congue eu consequat. Consectetur adipiscing elit ut aliquam purus sit. Rhoncus urna neque viverra justo nec ultrices dui. Sodales neque sodales ut etiam sit. Semper risus in hendrerit gravida rutrum quisque non tellus orci. Vel eros donec ac odio tempor orci dapibus ultrices in. Vel facilisis volutpat est velit egestas dui id.
+![image-title-here]({{ "/assets/images/map-athon-mockup.jpg" | relative_url }})
 
-## This is another subtitle
-Consequat id porta nibh venenatis. Eros in cursus turpis massa tincidunt dui ut. Sed adipiscing diam donec adipiscing tristique risus nec. Netus et malesuada fames ac turpis egestas integer eget aliquet. Maecenas sed enim ut sem viverra aliquet eget sit. Et magnis dis parturient montes nascetur ridiculus mus. Facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum. Integer vitae justo eget magna fermentum iaculis eu. Purus sit amet volutpat consequat mauris nunc congue nisi. Orci phasellus egestas tellus rutrum tellus pellentesque. Enim neque volutpat ac tincidunt vitae semper quis. Cras sed felis eget velit aliquet. Mauris cursus mattis molestie a iaculis at erat.
+## Experiment methodology
+1. Researchers explored the city using four different kinds of transportation methods: Machinbombo, taxi, Xopela, private car, walk and Chapas.
+2. Upon starting and ending, they logged their position through a [web app](https://densitydesign.github.io/map-uto/) developed inside the research team. This allowed to have precise starting and ending point for the trip.
+3. These points were then interpolated to infer the trip inside the city. They were finally categorized by transportation method and who initiated the trip[^1].
+
+## Future steps
+The aim of this experiment, besides having a trace of the first hand experience that the research team had in Maputo, was to build a first framework to be replicated by other participants on larger scale.
+The usage of a web app helped to have a simple data format, but it also introduced a number of complications related to the use of web technologies that often inhibit geolocation of mobile devices for prolonged online sessions.
+Avoiding the use of web technologies could improve this aspect of the data gathering, and would make it more robust.
+
+[^1]: It's also possible to see singular complete trips from each participant in the small maps below. These trips are cumulative after one week of travel.

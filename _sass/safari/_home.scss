@@ -55,7 +55,13 @@
 }
 
 .home blockquote {
-  margin-bottom: $spacing-unit;
+  p {
+    margin-bottom: $spacing-unit / 2;
+  }
+
+  em {
+    color: $brand-color;
+  }
 }
 
 #index {

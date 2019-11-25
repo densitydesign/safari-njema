@@ -230,6 +230,8 @@ table td { border: 1px solid #fff5ec; }
 
 .post-content .main-post-content blockquote p { font-size: 18px; line-height: 1.2; }
 
+.post-content .main-post-content blockquote p em { color: #ff009c; }
+
 .post-content .main-post-content .footnotes { grid-column: 1 / 4; margin-bottom: 0; }
 
 .post-content .main-post-content .footnotes * { font-size: 12px; color: #ff1a80; }
@@ -371,7 +373,9 @@ table td { border: 1px solid #fff5ec; }
 
 #safari--partners { margin-bottom: 60px; }
 
-.home blockquote { margin-bottom: 30px; }
+.home blockquote p { margin-bottom: 15px; }
+
+.home blockquote em { color: #ff009c; }
 
 #index { margin-top: 60px; }
 

@@ -22,9 +22,9 @@ layout: default
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
 
-<div id="index" class="minified">
-  <h3>Other insights:</h3>
-  {%- if site.questions.size > 0 -%}
+{%- if site.questions.size > 1 -%}
+  <div id="index" class="minified">
+    <h3>Other insights:</h3>
     <ul class="post-list">
       {%- for question in site.questions -%}
         {%- if question.title != page.title -%}
@@ -41,5 +41,5 @@ layout: default
         {%- endif -%}
       {%- endfor -%}
     </ul>
-  {%- endif -%}
-</div>
+  </div>
+{%- endif -%}
