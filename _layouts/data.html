@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div id="datasets" class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  <div class="methodology--content">{{ content }}</div>
+
+  <div id="index">
+    <h2>Download</h2>
+    {%- if site.questions.size > 0 -%}
+      <ul class="data-list">
+        {%- for question in site.questions -%}
+        <li>
+          <h3>
+            <a class="data-link" href="{{ question.data | relative_url }}">
+              {{ question.data | escape }}
+            </a>
+          </h3>
+          <p>
+            {{ question.data-description }}
+          </p>
+        </li>
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
+  </div>
+</div>
