@@ -1,7 +1,7 @@
 ---
-layout: data
 title: Available datasets
-permalink: /data/
+permalink: "/data/"
+layout: data
 ---
 
 Data available to download

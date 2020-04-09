@@ -1,32 +1,37 @@
+---
 title: Safari Njema
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  questions:
+    title: Questions
+    output: true
+    permalink: "/:title"
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    is_question: true
+- scope:
+    path: ''
+  values:
+    layout: intro
 email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  POLISOCIAL è il programma di impegno e responsabilità sociale @Politecnico di Milano. www.polisocial.polimi.it
-baseurl: "/safari-njema" # the subpath of your site, e.g. /blog
-url: "https://densitydesign.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+description: POLISOCIAL è il programma di impegno e responsabilità sociale @Politecnico
+  di Milano. www.polisocial.polimi.it
+baseurl: "/safari-njema"
+url: https://densitydesign.github.io
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username: jekyll
 markdown: kramdown
 kramdown:
   parse_block_html: true
-
-collections:
-  questions:
-    output: true
-    permalink: /:title
-
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      is_question: true
-  - scope:
-      path: ""
-    values:
-      layout: "intro"
-
-# Build settings
 plugins:
-  - jekyll-admin
+- jekyll-admin
