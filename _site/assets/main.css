@@ -31,7 +31,7 @@ ul, ol { margin-left: 30px; }
 li > ul, li > ol { margin-bottom: 0; }
 
 /** Headings */
-h1, h2, h3, h4, h5, h6 { color: #ff009c; font-family: "HK Grotesk", "Helvetica", "Arial", serif; font-weight: 400; }
+h1, h2, h3, h4, h5, h6 { color: #ff009c; font-family: "HK Grotesk", "Helvetica", "Arial", serif; font-weight: 700; }
 
 /** Links */
 a { color: #ff66aa; text-decoration: none; }
@@ -85,11 +85,13 @@ table td { border: 1px solid #fff5ec; }
 /** navigation
 *
 */
-#nav { color: #ff009c; z-index: 9999; position: sticky; height: 41px; width: 100%; top: 0; padding: 15px 0; border-top: 1px solid #ff009c; }
+#nav { background: #ffe7d3; color: #ff009c; z-index: 9999; position: sticky; width: 100%; top: 0; padding: 15px 0; border-top: 1px solid #ff009c; }
 
 #nav button { font-size: 16.5px; font-family: "HK Grotesk", "Helvetica", "Arial", serif; text-transform: none; }
 
-#nav #home { background: #ff009c; color: #ffe7d3; border-color: #ff009c; }
+#nav .wrapper div { display: inline-block; margin-right: 10px; }
+
+#nav #home { font-family: "HK Grotesk", "Helvetica", "Arial", serif; font-weight: 700; text-transform: uppercase; color: #ff009c; }
 
 #nav #polisocial { float: right; }
 
@@ -166,7 +168,7 @@ table td { border: 1px solid #fff5ec; }
 
 #datasets #index .data-list > li:first-child { border-top: 1px solid #ffbf86; }
 
-#datasets #index .data-list > li { display: flex; padding: 20px 0; background-position: center; background-size: 50%; background-repeat: no-repeat; margin-bottom: 0; border-bottom: 1px solid #ffbf86; font-size: 15px; }
+#datasets #index .data-list > li { display: flex; padding: 15px 0; background-position: center; background-size: 50%; background-repeat: no-repeat; margin-bottom: 0; border-bottom: 1px solid #ffbf86; line-height: 1.2; }
 
 @media screen and (max-width: 768px) { #datasets #index .data-list > li { padding: 15px 0; display: block; } }
 

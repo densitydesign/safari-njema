@@ -29,4 +29,3 @@ defaults:
 
 # Build settings
 plugins:
-  - jekyll-admin

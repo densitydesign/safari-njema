@@ -3,10 +3,10 @@
 */
 
 #nav {
+  background: $background-color;
   color: $brand-color;
   z-index: 9999;
   position: sticky;
-  height: 41px;
   width: 100%;
   top: 0;
   padding: $spacing-unit / 2 0;
@@ -18,10 +18,19 @@
     text-transform: none;
   }
 
+  .wrapper {
+    div {
+      display: inline-block;
+      margin-right: $spacing-unit / 3;
+    }
+  }
+
   #home {
-    background: $brand-color;
-    color: $background-color;
-    border-color: $brand-color;
+    font-family: $title-font-family;
+    font-weight: $title-font-weight;
+    text-transform: uppercase;
+
+    color: $brand-color;
   }
 
   #polisocial {
@@ -262,7 +271,7 @@
 
     .data-list > li {
       display: flex;
-      padding: $spacing-unit / 1.5 0;
+      padding: $spacing-unit / 2 0;
       background-position: center;
       background-size: 50%;
       background-repeat: no-repeat;
@@ -272,7 +281,7 @@
         padding: $spacing-unit / 2 0;
         display: block;
       }
-      @include relative-font-size(1);
+      line-height: 1.2;
     }
 
     .data-list > li > * {

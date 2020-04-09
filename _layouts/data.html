@@ -10,18 +10,20 @@ layout: default
   <div class="methodology--content">{{ content }}</div>
 
   <div id="index">
-    <h2>Download</h2>
     {%- if site.questions.size > 0 -%}
       <ul class="data-list">
         {%- for question in site.questions -%}
         <li>
-          <h3>
+          <p>
+            {{ question.data-description }}
+          </p>
+          <h4>
+            <a class="data-link" href="{{ question.url | relative_url }}">{{ question.title }}</a>
+          </h4>
+          <p>
             <a class="data-link" href="{{ question.data | relative_url }}">
               {{ question.data | escape }}
             </a>
-          </h3>
-          <p>
-            {{ question.data-description }}
           </p>
         </li>
         {%- endfor -%}
