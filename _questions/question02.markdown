@@ -1,5 +1,5 @@
 ---
-number: X
+number: 2
 layout: visualization
 type: post
 title: Calculating and visualizing iso-chrone lines in Maputo
