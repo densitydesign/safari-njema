@@ -33,4 +33,4 @@ github_username: jekyll
 markdown: kramdown
 kramdown:
   parse_block_html: true
-plugins:
+plugins: 
