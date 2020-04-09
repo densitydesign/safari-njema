@@ -1,4 +1,5 @@
 ---
+title: SAFARI NJEMA
 layout: home
 ---
 
