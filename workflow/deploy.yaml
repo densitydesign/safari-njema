@@ -1,0 +1,11 @@
+name: Automatic build for SAFARI NJEMA
+# This workflow is triggered on pushes to the repository.
+on:
+  push:
+    branches:
+      # Change this to the branch where you keep your Jekyll code.
+      - master
+jobs:
+  build:
+    - name: Build SAFARI NJEMA
+      uses: meitar/jekyll-builder-for-github-pages-action@v1
