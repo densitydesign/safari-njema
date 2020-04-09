@@ -14,6 +14,8 @@ layout: default
       <p>{{ page.authors }}</p>
       <h4>Department</h4>
       <p>{{ page.department }}</p>
+      <h4>Data</h4>
+      <p><a href="{{ page.data | absolute_url }}">{{ page.data-description }}</p>
     </aside>
     <div class="main-post-content">
       {{ content }}

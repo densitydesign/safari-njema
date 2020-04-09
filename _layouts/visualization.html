@@ -20,6 +20,8 @@ layout: default
       <p>{{ page.authors }}</p>
       <h4>Department</h4>
       <p>{{ page.department }}</p>
+      <h4>Data</h4>
+      <p><a href="{{ page.data | absolute_url }}">{{ page.data-description }}</a></p>
     </aside>
     <div class="main-post-content">
       {{ content }}
@@ -30,7 +32,7 @@ layout: default
 </article>
 
 <div id="index" class="minified">
-  <h3>Other insights:</h3>
+  <h3>Other analyses:</h3>
   {%- if site.questions.size > 0 -%}
     <ul class="post-list">
       {%- for question in site.questions -%}
