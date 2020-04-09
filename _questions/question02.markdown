@@ -1,12 +1,12 @@
 ---
 title: Title
+permalink: "/question2/"
 number: 2
 layout: visualization
 type: visualization
 department: Department of Mathematics, Department of Design
 authors: Anna Calissano, Paola Riva, Elena Castelli, Andrea Benedetti (design and
   development), Tommaso Elli (development)
-permalink: "/question2/"
 data: https://www.facebook.it/
 data-description: Brief description of the dataset.
 ---
