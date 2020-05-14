@@ -1,7 +1,7 @@
 ---
-title: Methodology
-permalink: "/about/"
-layout: about
+title: Mission
+permalink: "/mission/"
+layout: mission
 ---
 
 The project, being interdisciplinary, can count on different methodological challenges. In so far, it proposes the experimental use of innovative technologies and methods in the fields of Mathematics, Urban Studies, and Management, Service Design  in order to develop highly complex and integrated solutions to the problems identified so far. In detail it aims at testing:

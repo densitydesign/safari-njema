@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div id="methodology" class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  <div class="methodology--content">{{ content }}</div>
+
+  <div class="safari--partners">
+    <h2>Partners</h2>
+    {%- for partner in site.data.partners -%}
+      <div class="safari--logos">
+        <img src="{{ partner.logo | relative_url }}" alt="{{ partner.name }}">
+      </div>
+    {%- endfor -%}
+  </div>
+  <div class="safari--partners">
+    <h2>Expertise</h2>
+    {%- for expertise in site.data.expertise -%}
+      <div class="safari--departments">
+        <h3>{{ expertise.name }}</h3>
+      </div>
+    {%- endfor -%}
+  </div>
+  <div class="safari--partners">
+    <h2>People</h2>
+    {%- for people in site.data.people -%}
+      <div>
+        <p><b>{{ people.contact }}</b> ({{ people.department }})</p>
+        <p><i>{{ people.role }}</i></p>
+      </div>
+    {%- endfor -%}
+  </div>
+</div>

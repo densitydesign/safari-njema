@@ -387,7 +387,7 @@ table td { border: 1px solid #fff5ec; }
 
 .highlight .il { color: #099; }
 
-#safari--cover { image-rendering: pixelated; background-image: url("../assets/images/great-maputo-cover.png"); background-size: auto; background-repeat: no-repeat; background-position: center; width: 100vw; height: 80vh; position: relative; left: calc(-50vw + 50%); top: -105px; display: flex; align-items: center; justify-content: center; vertical-align: middle; flex-wrap: wrap; color: #FFFFFF; }
+#safari--cover { image-rendering: pixelated; background-image: url("../assets/images/great-maputo-cover.png"); background-size: auto; background-repeat: no-repeat; background-position: center; width: 100vw; height: 100vh; position: relative; left: calc(-50vw + 50%); top: -105px; display: flex; align-items: center; justify-content: center; vertical-align: middle; flex-wrap: wrap; color: #FFFFFF; }
 
 #safari--cover .post-title { text-align: center; font-size: 90px; -webkit-text-stroke-color: #ff009c; -webkit-text-stroke-width: 1px; color: #ff66aa; font-weight: 700; width: 90%; margin: auto; }
 
