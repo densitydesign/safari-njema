@@ -16,12 +16,16 @@ layout: default
 
   <div class="post-content e-content" itemprop="articleBody">
     <aside class="post-meta">
-      <h4>Authors</h4>
-      <p>{{ page.authors }}</p>
-      <h4>Department</h4>
-      <p>{{ page.department }}</p>
+      <h4>Narrative Diagram</h4>
+      <p><img src="{{ page.diagram | absolute_url }}"></p>
       <h4>Data</h4>
-      <p><a href="{{ page.data | absolute_url }}">{{ page.data-description }}</a></p>
+      <ul>
+        {% for source in page.sources %}
+          <li><a href="{{ source.link }}" target="_blank"> <i class="fas fa-arrow-circle-down"></i> {{ source.name }}</a></li>
+        {% endfor %}
+      </ul>
+      <h4>Expertise</h4>
+      <p>{{ page.expertise }}</p>
     </aside>
     <div class="main-post-content">
       {{ content }}
