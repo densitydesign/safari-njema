@@ -5,10 +5,10 @@ number: 2
 layout: visualization
 type: post
 expertise:
-  - Data analysis
-  - Data retrieval
-  - GIS modelling
-  - Urban analysis
+- Data analysis
+- Data retrieval
+- GIS modelling
+- Urban analysis
 sources:
 - name: GPS (Cuebiq)
   link: https://www.wikipedia.org/
