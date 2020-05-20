@@ -16,16 +16,20 @@ layout: default
 
   <div class="post-content e-content" itemprop="articleBody">
     <aside class="post-meta">
-      <h4>Narrative Diagram</h4>
-      <p><img src="{{ page.diagram | absolute_url }}"></p>
       <h4>Data</h4>
-      <ul>
+      <ul style="padding: 0; margin-left: 0;">
         {% for source in page.sources %}
-          <li><a href="{{ source.link }}" target="_blank"> <i class="fas fa-arrow-circle-down"></i> {{ source.name }}</a></li>
+          <li style="border: 1px solid #ff009c; text-align: center; padding: 0.3rem 0.6rem; margin-bottom: 0.5rem; list-style: none"><a href="{{ source.link }}" target="_blank"> <p style="margin-bottom: 0">{{ source.name }}</p></a></li>
         {% endfor %}
       </ul>
       <h4>Expertise</h4>
-      <p>{{ page.expertise }}</p>
+      <ul style="padding: 0; margin-left: 0;">
+        {% for expertise in page.expertise %}
+          <li style="border: 1px solid #ff009c; text-align: center; padding: 0.3rem 0.6rem; margin-bottom: 0.5rem; border-radius: 100px; color: black; list-style: none;"><p style="margin-bottom: 0">{{ expertise }}</p></li>
+        {% endfor %}
+      </ul>
+      <h4>Narrative Diagram</h4>
+      <p><img src="{{ page.diagram | absolute_url }}"></p>
     </aside>
     <div class="main-post-content">
       {{ content }}
