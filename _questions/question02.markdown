@@ -1,10 +1,11 @@
 ---
 title: Title
 permalink: "/question2/"
+categories:
+- uno
 number: 2
 layout: visualization
 type: post
-category: uno
 expertise:
 - Data analysis
 - Data retrieval
