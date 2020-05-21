@@ -4,6 +4,7 @@ permalink: "/question2/"
 number: 2
 layout: visualization
 type: post
+category: uno
 expertise:
   - Data analysis
   - Data retrieval

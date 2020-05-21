@@ -4,12 +4,27 @@ title: 'Organizing a ''Map-athon'': first-hand experience of the transportation 
 permalink: "/mapathon/"
 number: 1
 layout: visualization
-type: visualization
-department: Department of Mathematics, Department of Design
-authors: Anna Calissano, Paola Riva, Elena Castelli, Andrea Benedetti (design and
-  development), Tommaso Elli (development)
-data: https://www.google.it/
-data-description: Brief description of the dataset.
+type: z
+category: uno
+expertise:
+  - Data analysis
+  - Data retrieval
+  - GIS modelling
+  - Urban analysis
+sources:
+- name: GPS (Cuebiq)
+  link: https://www.wikipedia.org/
+  description: 28/10/2019
+- name: Census data
+  link: https://google.com
+  description: 22/10/2019
+- name: Points of interest (POI)
+  link: https://www.wikipedia.org/
+  description: 28/10/2019
+- name: Chapas network
+  link: https://google.com
+  description: 22/10/2019
+diagram: "/assets/images/diagram-02.png"
 ---
 
 As a first experiment, a small map-athon was organized in Maputo within the research team to have a first hand experience of the mobility systems in the city. For the Mobility Week organized in September, members of the research teams explored the city with formal and para-transit transportations systems through the whole week, gathering data both from the platforms provided by the research partners, and from a simple web app developed for this purpose.
