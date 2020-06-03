@@ -421,7 +421,7 @@ table td { border: 1px solid white; }
 
 .home blockquote em { color: #f5546c; }
 
-.home--objectives { display: flex; margin-bottom: 60px; font-size: 18.9px; font-family: "HK Grotesk", "Helvetica", "Arial", serif; text-align: center; color: #f5546c; }
+.home--objectives { display: flex; margin-bottom: 60px; font-size: 18.9px; font-family: "HK Grotesk", "Helvetica", "Arial", serif; text-align: center; color: #002e57; }
 
 .home--objectives div { margin-right: 30px; }
 
