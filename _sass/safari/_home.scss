@@ -1,7 +1,6 @@
 #safari--cover {
-  image-rendering: pixelated;
-  background-image: url("../assets/images/great-maputo-cover.png");
-  background-size: auto;
+  background-image: url("../assets/images/maputo-cover.png");
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   width: 100vw;
@@ -32,9 +31,8 @@
     width: 95%;
     text-align: center;
     margin: auto;
-    color: darken(peachpuff, 80%);
+    color: $text-color;
     line-height: 1.1;
-    text-shadow: 0 0 2px $background-color;
   }
 }
 
@@ -61,6 +59,19 @@
 
   em {
     color: $brand-color;
+  }
+}
+
+.home--objectives {
+  display: flex;
+  margin-bottom: $spacing-unit * 2;
+  font-size: $big-font-size * 0.9;
+  font-family: $title-font-family;
+  text-align: center;
+  color: $brand-color;
+
+  div {
+    margin-right: $spacing-unit;
   }
 }
 

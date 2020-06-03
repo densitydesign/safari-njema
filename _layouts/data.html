@@ -18,17 +18,15 @@ layout: default
     {% assign questions = site.questions | sort: 'type' %}
       <ul class="data-list">
         {%- for question in questions -%}
+					<h3><a href="{{ question.link | relative_url }}">{{ question.title }}</a></h3>
           {%- for source in question.sources -%}
 
             <li id="{{ source.link }}">
               <p>
                 {{ source.name }}
               </p>
-              <h4>
-                <a class="data-link" href="{{ question.url | relative_url }}">{{ question.title }}</a>
-              </h4>
               <p>
-                <a class="data-link" href="{{ question.link | relative_url }}">
+                <a class="data-link" href="{{ source.link | relative_url }}" target="_blank">
                   {{ source.link | escape }}
                 </a>
               </p>

@@ -6,6 +6,8 @@ layout: default
   <div>
     <h1 class="post-title">SAFARI NJEMA</h1>
     <h2>Supporting mobility policies through Big Data Analysis</h2>
+    <div style="text-align: center; margin-top: 2rem;"><a href="{{ "/mission/" | relative_url }}"><button>Read more about the project</button></a>
+    <a href="https://youtu.be/sliSRdTTFGg" target="_blank"><button>Watch the video</button></a></div>
   </div>
 </div>
 
@@ -13,27 +15,32 @@ layout: default
   <div class="home-content">
     {{ content }}
   </div>
-
-  <a href="{{ "/about/" | relative_url }}"><button>Read more about the project</button></a>
-  <a href="https://youtu.be/sliSRdTTFGg" target="_blank"><button>Watch the video</button></a>
+  <h2>SAFARI NJEMA aims to</h2>
+  <div class="home--objectives">
+      <div>Studiare il fenomeno della mobilità informale</div>
+      <div>Costruire un modello di analisi che integri GPS data</div>
+      <div>Offrire elementi/cognizioni per innovare il policy making</div>
+      <div>Elaborare indicatori di performance</div>
+      <div>Sperimentare visualizzazioni innovative</div>
+  </div>
 
   <div id="index">
-    <h2>Research analyses</h2>
+    <h2>Research Outputs</h2>
     {%- if site.questions.size > 0 -%}
-      <ul class="post-list">
-        {%- for question in site.questions -%}
-        <li>
-          <h3>
-            <a class="post-link" href="{{ question.url | relative_url }}">
-              {{ question.title | escape }}
-            </a>
-          </h3>
-          <p>
-            {{ question.department }}
-          </p>
-        </li>
-        {%- endfor -%}
-      </ul>
+    <ul class="post-list">
+      {%- for question in site.questions -%}
+      <li>
+        <h3>
+          <a class="post-link" href="{{ question.url | relative_url }}">
+            {{ question.title | escape }}
+          </a>
+        </h3>
+        <p>
+          {{ question.department }}
+        </p>
+      </li>
+      {%- endfor -%}
+    </ul>
     {%- endif -%}
   </div>
 </div>

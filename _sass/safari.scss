@@ -23,12 +23,13 @@ $spacing-unit:     30px !default;
 // $background-color: #111111;
 // $brand-color:      #FFFF00;
 
-$text-color: darken(peachpuff, 80%);
-$background-color: lighten(peachpuff, 5%);
-$brand-color: #ff009c;
-$link-color: lighten(adjust-hue(#ff009c, 10deg), 20%);
+$text-color: darken(AliceBlue, 80%);
+$background-color: lighten(AliceBlue, 5%);
+//$brand-color: #ff009c;
+$brand-color: #f5546c;
+$link-color: lighten(adjust-hue(#f5546c, 0deg), 10%);
 
-$grey-color:       peachpuff !default;
+$grey-color:       AliceBlue !default;
 $grey-color-light: lighten($grey-color, 10%) !default;
 $grey-color-dark:  darken($grey-color, 10%) !default;
 
