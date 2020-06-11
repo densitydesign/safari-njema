@@ -24,7 +24,7 @@ defaults:
   values:
     layout: intro
 email: your-email@example.com
-description: POLISOCIAL è il programma di impegno e responsabilità sociale @Politecnico
+description: POLISOCIAL è il programma di impegno e responsabilità sociale presso il Politecnico
   di Milano. www.polisocial.polimi.it
 baseurl: "/safari-njema"
 url: https://densitydesign.github.io

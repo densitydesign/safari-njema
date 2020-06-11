@@ -23,7 +23,10 @@ layout: default
 
             <li id="{{ source.link }}">
               <p>
-                {{ source.name }}
+                	<b>{{ source.name }}</b>
+              </p>
+							<p>
+                {{ source.description }}
               </p>
               <p>
                 <a class="data-link" href="{{ source.link | relative_url }}" target="_blank">

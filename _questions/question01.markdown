@@ -15,16 +15,16 @@ expertise:
 sources:
 - name: GPS (Cuebiq)
   link: https://www.wikipedia.org/
-  description: 28/10/2019
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
 - name: Census data
   link: https://google.com
-  description: 22/10/2019
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
 - name: Points of interest (POI)
   link: https://www.wikipedia.org/
-  description: 28/10/2019
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
 - name: Chapas network
   link: https://google.com
-  description: 22/10/2019
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
 diagram: "/assets/images/diagram-02.png"
 ---
 
