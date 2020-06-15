@@ -1,7 +1,6 @@
 ---
 title: 'Organizing a ''Map-athon'': first-hand experience of the transportation system
   in Maputo'
-slug: A brief description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 permalink: "/mapathon/"
 categories:
 - uno
@@ -28,7 +27,8 @@ sources:
     tempor incididunt
 - name: Chapas network
   link: https://google.com
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt
 diagram: "/assets/images/diagram-02.png"
 ---
 
