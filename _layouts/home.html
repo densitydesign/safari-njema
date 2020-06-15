@@ -6,7 +6,7 @@ layout: default
   <div>
     <h1 class="post-title">SAFARI NJEMA</h1>
     <h2>Supporting mobility policies through Big Data Analysis</h2>
-    <div style="text-align: center; margin-top: 2rem;"><a href="{{ "/mission/" | relative_url }}"><button>Read more about the project</button></a>
+    <div style="text-align: center; margin-top: 2rem;">
     <a href="https://youtu.be/sliSRdTTFGg" target="_blank"><button>Watch the video</button></a></div>
   </div>
 </div>
@@ -22,6 +22,7 @@ layout: default
       <div>Offrire elementi/cognizioni per innovare il policy making</div>
       <div>Elaborare indicatori di performance</div>
       <div>Sperimentare visualizzazioni innovative</div>
+      <a href="{{ "/mission/" | relative_url }}"><button>Read more →</button></a>
   </div>
 
   <div id="index">
@@ -36,7 +37,7 @@ layout: default
           </a>
         </h3>
         <p>
-          {{ question.department }}
+          {{ question.slug }}
         </p>
       </li>
       {%- endfor -%}
