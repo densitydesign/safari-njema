@@ -1,6 +1,5 @@
 ---
 title: Title of the output
-slug: A brief description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 permalink: "/question2/"
 categories:
 - uno
