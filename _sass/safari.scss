@@ -14,23 +14,13 @@ $title-font-weight: 700 !default;
 
 $spacing-unit:     30px !default;
 
-// $text-color:       #333333 !default;
-// $background-color: lighten(#D0CDD7, 10%) !default;
-// $brand-color:      #115659 !default;
-// $brand-color:      #0000e3 !default;
-
-// $text-color:       #DFDFDF;
-// $background-color: #111111;
-// $brand-color:      #FFFF00;
-
 $text-color: darken(seashell, 90%);
 $background-color: lighten(seashell, 2%);
-//$brand-color: #ff009c;
-$brand-color: #FF4500;
-$link-color: lighten(adjust-hue(#FF4500, 0deg), 10%);
+$brand-color: #ff0628;
+$link-color: lighten(adjust-hue($brand-color, 10deg), 15%);
 
 $grey-color:       seashell !default;
-$grey-color-light: lighten($grey-color, 10%) !default;
+$grey-color-light: lighten($grey-color, 5%) !default;
 $grey-color-dark:  darken($grey-color, 5%) !default;
 
 $table-text-align: left !default;
