@@ -31,6 +31,7 @@ sources:
 - name: Google Earth Imagery
   link: https://www.google.it/intl/it/earth/index.html
 ---
+
 Despite the significant growth of Mozambique since 1993, in this country more than half of the population still lives below the poverty line. The poverty reduction better performs in cities than in rural areas and in Mozambique the main urban growth happened in Greater Maputo Area. The rapid growth of the capital city involves negative externalities such as new urban poor, gentrification and underserved neighbourhoods.
 
 ## Objectives
