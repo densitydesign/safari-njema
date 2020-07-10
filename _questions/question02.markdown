@@ -12,7 +12,8 @@ expertise:
 sources:
 - name: Health facilities
   link: https://www.mozgis.gov.mz/portal/home/item.html?id=24b14545ee6d4e758066e509f546ab1d
-  description: Data are provided by the official GIS portal of the Mozambican Ministry of Transport.
+  description: Data are provided by the official GIS portal of the Mozambican Ministry
+    of Transport.
 - name: High Resolution Settlement Layer (HRSL)
   link: https://google.com
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
