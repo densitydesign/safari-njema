@@ -14,14 +14,16 @@ $title-font-weight: 700 !default;
 
 $spacing-unit:     30px !default;
 
-$text-color: darken(seashell, 90%);
-$background-color: lighten(seashell, 2%);
 $brand-color: #ff0628;
-$link-color: lighten(adjust-hue($brand-color, 10deg), 15%);
+$link-color: lighten(adjust-hue($brand-color, 15deg), 10%);
 
-$grey-color:       seashell !default;
+$grey-color:       #F4F6F6 !default;
 $grey-color-light: lighten($grey-color, 5%) !default;
 $grey-color-dark:  darken($grey-color, 5%) !default;
+$grey-color-darker:  darken($grey-color, 60%) !default;
+
+$text-color: darken($grey-color, 90%);
+$background-color: lighten($grey-color, 2%);
 
 $table-text-align: left !default;
 
@@ -29,7 +31,7 @@ $table-text-align: left !default;
 $content-width:    1140px !default;
 
 $on-palm:          768px !default;
-$on-laptop:        1200px !default;
+$on-laptop:        768px !default;
 
 // Use media queries like this:
 // @include media-query($on-palm) {

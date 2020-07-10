@@ -1,5 +1,5 @@
 ---
-title: Available datasets
+title: Materials and Datasets
 permalink: "/data/"
 layout: data
 ---

@@ -15,15 +15,15 @@ layout: default
   <ul class="post-list">
     {%- for question in site.questions -%}
     <li>
-      <img src="https://via.placeholder.com/1200x800" height="200" width="auto">
-      <h3>
+      <img src="https://via.placeholder.com/1200x800" style="margin: 0; margin-right: 2rem;" height="800">
+      <span>
+      <h2>
         <a class="post-link" href="{{ question.url | relative_url }}">
           {{ question.title | escape }}
         </a>
-      </h3>
-      <p>
-        {{ question.slug }}
-      </p>
+      </h2>
+        <p>{{ question.content | strip_html | truncatewords:75}}</p>
+      </span>
     </li>
     {%- endfor -%}
   </ul>

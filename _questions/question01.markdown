@@ -1,5 +1,5 @@
 ---
-title: 'Organizing a ''Map-athon'': first-hand experience of the transportation system
+title: 'Organizing a Map-athon: first-hand experience of the transportation system
   in Maputo'
 permalink: "/mapathon/"
 number: 1

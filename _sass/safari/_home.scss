@@ -128,7 +128,7 @@
 }
 
 .post-list > li > * {
-  width: 33%;
+  width: 50%;
   margin-bottom: 0;
   margin-right: $spacing-unit;
   @include media-query($on-palm) {

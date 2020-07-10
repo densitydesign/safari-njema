@@ -1,68 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<title>Accessibility, equity and social exclusion - Safari Njema</title><head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/88c3e70171.js" crossorigin="anonymous"></script>
-  <script src="https://d3js.org/d3.v5.min.js"></script>
-  <script
-  src="https://code.jquery.com/jquery-3.5.1.min.js"
-  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-  crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="/safari-njema/assets/main.css"></head>
-<body><div id="nav">
-  <div class="wrapper">
-    <a href="/safari-njema/"><div id="home">Safari Njema</div></a>
-    <a href="/safari-njema/outputs/"><div>Results</div></a>
-    <a href="/safari-njema/mission/"><div>Mission</div></a>
-    <a href="/safari-njema/team/"><div>Team</div></a>
-    <a href="/safari-njema/data/"><div>Materials</div></a>
-  </div>
-</div>
-<main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Accessibility, equity and social exclusion</h1>
-  </header><div class="post-content e-content" itemprop="articleBody">
-    <aside class="post-meta">
-      <h4>Data</h4>
-      <ul style="padding: 0; margin-left: 0;">
-        
-          <li style="border: 1px solid #f5546c; text-align: center; padding: 0.3rem 0.6rem; margin-bottom: 0.5rem; list-style: none"><a href="https://www.mozgis.gov.mz/portal/home/item.html?id=24b14545ee6d4e758066e509f546ab1d" target="_blank"> <p style="margin-bottom: 0">Health facilities</p></a></li>
-        
-          <li style="border: 1px solid #f5546c; text-align: center; padding: 0.3rem 0.6rem; margin-bottom: 0.5rem; list-style: none"><a href="https://google.com" target="_blank"> <p style="margin-bottom: 0">High Resolution Settlement Layer (HRSL)</p></a></li>
-        
-          <li style="border: 1px solid #f5546c; text-align: center; padding: 0.3rem 0.6rem; margin-bottom: 0.5rem; list-style: none"><a href="https://www.openstreetmap.org" target="_blank"> <p style="margin-bottom: 0">OSM Road Network</p></a></li>
-        
-          <li style="border: 1px solid #f5546c; text-align: center; padding: 0.3rem 0.6rem; margin-bottom: 0.5rem; list-style: none"><a href="https://www.mozgis.gov.mz/portal/home/item.html?id=93c32bb32cad4e9b84b0123695cdc376" target="_blank"> <p style="margin-bottom: 0">Financial services (POS, ATM, Banks, Money exchange)</p></a></li>
-        
-          <li style="border: 1px solid #f5546c; text-align: center; padding: 0.3rem 0.6rem; margin-bottom: 0.5rem; list-style: none"><a href="https://www.google.com/maps/" target="_blank"> <p style="margin-bottom: 0">Education system</p></a></li>
-        
-          <li style="border: 1px solid #f5546c; text-align: center; padding: 0.3rem 0.6rem; margin-bottom: 0.5rem; list-style: none"><a href="https://www.google.it/intl/it/earth/index.html" target="_blank"> <p style="margin-bottom: 0">Google Earth Imagery</p></a></li>
-        
-      </ul>
-      <h4>Expertise</h4>
-      <ul style="padding: 0; margin-left: 0;">
-        
-          <li style="border: 1px solid #f5546c; text-align: center; padding: 0.3rem 0.6rem; margin-bottom: 0.5rem; border-radius: 100px; color: black; list-style: none;"><p style="margin-bottom: 0">Data analysis</p></li>
-        
-          <li style="border: 1px solid #f5546c; text-align: center; padding: 0.3rem 0.6rem; margin-bottom: 0.5rem; border-radius: 100px; color: black; list-style: none;"><p style="margin-bottom: 0">Data retrieval</p></li>
-        
-          <li style="border: 1px solid #f5546c; text-align: center; padding: 0.3rem 0.6rem; margin-bottom: 0.5rem; border-radius: 100px; color: black; list-style: none;"><p style="margin-bottom: 0">GIS modelling</p></li>
-        
-          <li style="border: 1px solid #f5546c; text-align: center; padding: 0.3rem 0.6rem; margin-bottom: 0.5rem; border-radius: 100px; color: black; list-style: none;"><p style="margin-bottom: 0">Urban analysis</p></li>
-        
-      </ul>
-      <div id="table--of--content"></div>
-    </aside>
-    <div class="main-post-content">
-      <p>Despite the significant growth of Mozambique since 1993, in this country more than half of the population still lives below the poverty line. The poverty reduction better performs in cities than in rural areas and in Mozambique the main urban growth happened in Greater Maputo Area. The rapid growth of the capital city involves negative externalities such as new urban poor, gentrification and underserved neighbourhoods.</p>
-
-<h2 id="objectives">Objectives</h2>
+I"0<h2 id="objectives">Objectives</h2>
 <blockquote>
   <ol>
     <li>Mapping poverty rate considering the level of accessibility</li>
@@ -73,8 +9,10 @@
   </ol>
 </blockquote>
 
-<p>The output attempt to measure the wealth and map the poverty in the Greater Maputo Area. Give a spatial dimension to this phenomenon allow to drive policies and perform services and new infrastructures.
-The definition of wealth (or poverty) is generic and there are many variables that contribute to determine its value. From the literature review we identify key factors that influence wealth in Greater Maputo Area:</p>
+<p>Despite the significant growth of Mozambique since 1993, in this country more than half of the population still lives below the poverty line. The poverty reduction better performs in cities than in rural areas and in Mozambique the main urban growth happened in Greater Maputo Area. The rapid growth of the capital city involves negative externalities such as new urban poor, gentrification and underserved neighbourhoods.
+The output attempt to measure the wealth and map the poverty in the Greater Maputo Area. Give a spatial dimension to this phenomenon allow to drive policies and perform services and new infrastructures.
+The definition of wealth (or poverty) is generic and there are many variables that contribute to determine its value. From the literature review we identify key factors that influence wealth in Greater Maputo Area.</p>
+
 <ul>
   <li>access to drinking water at home</li>
   <li>access to information and communication technology</li>
@@ -97,7 +35,8 @@ The definition of wealth (or poverty) is generic and there are many variables th
 “Difficult access to formal jobs for the lower-income population.”
 The relation between public transport and formal jobs emerge also comparing bus stops and financial services (POS, ATM and banks). Financial services identify presence of formal commercial and economic activities, most of them fall within 250 m from a stop.
 Therefore, measure accessibility for the listed factors and considering public transport, means point out segregation areas, where there is a lack of services and a significant distance from them. These areas are unequal, people who live there have difficulties to access to job opportunities, there is a high rate of unemployment and informal employment and a lower educational level. The literature proves that all these social costs are also related to public transport equity and efficiency.
-Define where these areas are located will help to define policies and focus areas for investments and public interventions. Equity, inclusion, segregation and wealth can be analysed measuring accessibility to the following factors by public transport:</p>
+Define where these areas are located will help to define policies and focus areas for investments and public interventions. Equity, inclusion, segregation and wealth can be analysed measuring accessibility to the following factors by public transport.</p>
+
 <ul>
   <li>accessibility to health system</li>
   <li>accessibility to education system</li>
@@ -154,48 +93,4 @@ This indicator analyses accessibility to public transport stops, considering the
 <p>The isochrone represents an area within which the desired destination is reachable in a certain time. Through the network analysis, the isochrones were generated for each point of interest object of the analysis. To perform this analysis has been considered walking distance and time threshold of five minutes. Over thirty minutes walking distance, to avoid any problems related to the road network, the isochrones were considered equal to a buffer of about 416 meters (five minutes walking at 5 km/h). Each point of interest is associated with 9 isochrones and the most external one represents the distance that can be covered in 45 minutes walking.
 Morphological areas
 The territorial units to which this indicator has been applied is represented by homogeneous morphological areas. These areas have been built for the Safari project, due to the absence of a suitable administrative level for the analysis. Other indicators are also applied to these areas; they provide basic support for various activities in order to make the results comparable.</p>
-
-    </div>
-  </div>
-
-  <a class="u-url" href="/safari-njema/accessibility/"></a>
-</article>
-
-<div id="index" class="minified">
-  <h3>Other outputs</h3><ul class="post-list"><li>
-            <h3>
-              <a class="post-link" href="/safari-njema/mapathon/">
-                Organizing a Map-athon: first-hand experience of the transportation system in Maputo
-              </a>
-            </h3>
-            <p>
-              
-            </p>
-          </li></ul></div>
-
-      </div>
-    </main><footer class="site-footer h-card">
-  <data class="u-url" href="/safari-njema/"></data>
-
-  <div class="wrapper">
-    <div class="footer-col-wrapper">
-
-      <div class="footer-col footer-col-1">
-        <img src="/safari-njema/assets/images/logos/polimi.svg" height="50">
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <h3>Polisocial Award 2018</h3>
-        <p>POLISOCIAL è il programma di impegno e responsabilità sociale presso il Politecnico di Milano. www.polisocial.polimi.it</p>
-      </div>
-
-    </div>
-
-  </div>
-
-</footer>
-
-<script src="/safari-njema/assets/js/toc.js"></script>
-</body>
-
-</html>
+:ET

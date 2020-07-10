@@ -1,6 +1,26 @@
 /** navigation
 *
 */
+#table--of--content {
+  position: sticky;
+  top: 52px;
+  border-top: 1px solid $grey-color-dark;
+  padding-top: $spacing-unit;
+
+  p {
+    margin-bottom: $spacing-unit / 2;
+  }
+
+  a {
+    color: $grey-color-darker;
+    font-weight: $base-font-weight;
+    transition: 0.3s color ease;
+  }
+
+  .active {
+    color: $brand-color;
+  }
+}
 
 #nav {
   background: $grey-color;
@@ -223,7 +243,7 @@
   h2 {
     font-weight: 700;
     grid-column: 1 / 1;
-    grid-row: span 4;
+    grid-row: span 20;
   }
 
   @include media-query($on-laptop) {
@@ -309,6 +329,10 @@
       width: 100%;
       flex-wrap: wrap;
       margin: auto;
+
+      .download {
+        width: $spacing-unit;
+      }
     }
 
     .data-list > li:first-child {
@@ -418,10 +442,6 @@
   flex: 1;
 }
 
-.page-heading {
-  @include relative-font-size(2);
-}
-
 .post-list-heading {
   @include relative-font-size(1.75);
 }
@@ -506,7 +526,6 @@
     }
 
     p {
-      color: $text-color;
       font-family: $title-font-family;
       @include relative-font-size(1);
     }
