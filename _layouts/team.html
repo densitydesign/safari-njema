@@ -8,23 +8,6 @@ layout: default
   {%- endif -%}
 
   <div class="methodology--content">{{ content }}</div>
-
-  <div class="safari--partners">
-    <h2>Partners</h2>
-    {%- for partner in site.data.partners -%}
-      <div class="safari--logos">
-        <img src="{{ partner.logo | relative_url }}" alt="{{ partner.name }}">
-      </div>
-    {%- endfor -%}
-  </div>
-  <div class="safari--partners">
-    <h2>Expertise</h2>
-    {%- for expertise in site.data.expertise -%}
-      <div class="safari--departments">
-        <h3>{{ expertise.name }}</h3>
-      </div>
-    {%- endfor -%}
-  </div>
   <div class="safari--partners">
     <h2>People</h2>
     {%- for people in site.data.people -%}
@@ -34,23 +17,12 @@ layout: default
       </div>
     {%- endfor -%}
   </div>
-
-  <div id="index">
-    {%- if site.questions.size > 0 -%}
-    {% assign questions = site.questions | sort: 'type' %}
-      <ul class="data-list">
-        {%- for question in questions -%}
-					<h3><a href="{{ question.link | relative_url }}">{{ question.title }}</a></h3>
-          {%- for expertise in question.expertise -%}
-
-            <li>
-              <p>
-                {{ expertise }}
-              </p>
-            </li>
-          {%- endfor -%}
-        {%- endfor -%}
-      </ul>
-    {%- endif -%}
+  <div class="safari--partners">
+    <h2>Partners</h2>
+    {%- for partner in site.data.partners -%}
+      <div class="safari--logos">
+        <img src="{{ partner.logo | relative_url }}" alt="{{ partner.name }}">
+      </div>
+    {%- endfor -%}
   </div>
 </div>

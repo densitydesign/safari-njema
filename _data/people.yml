@@ -1,20 +1,24 @@
-- contact: Prof. Simone Vantini
+- contact: Simone Vantini
   role: Scientific Coordinator
-  department: DMAT
-- contact: Prof. Michela Arnaboldi
+  department: Department of Mathematics
+- contact: Michela Arnaboldi
   role: Project Manager
-  department: DIG
-- contact: Prof. Valeria Fedeli
-  department: DAStU
-- contact: Prof. Grazia Concilio
-  department: DAStU
-- contact: Prof. Michele Mauri
-  department: DESIGN
-- contact: Prof. Marco Brambilla
-  department: DEIB
-- contact: Dr. Anna Calissano
-  department: DMAT, DAStU
+  department: Department of Management, Economics and Industrial Engineering
+- contact: Paola Riva
+  department: Department of Management, Economics and Industrial Engineering
+- contact: Valeria Fedeli
+  department: Department of Architecture and Urban Studies
+- contact: Grazia Concilio
+  department: Department of Architecture and Urban Studies
+- contact: Michele Mauri
+  department: Department of Design
+- contact: Marco Brambilla
+  department: Department of Electronics, Information And Bioengineering
+- contact: Anna Calissano
+  department: Department of Mathematics, Department of Architecture and Urban Studies
   role: Joint PhD Candidate
-- contact: Dr. Francesco Leoni
-  department: DESIGN, DAStU
+- contact: Francesco Leoni
+  department: Department of Design, Department of Architecture and Urban Studies
   role: Joint PhD Candidate
+- contact: Andrea Benedetti
+  department: Department of Design

@@ -17,31 +17,11 @@ layout: default
   </div>
   <h2>SAFARI NJEMA aims to</h2>
   <div class="home--objectives">
-      <div>Studiare il fenomeno della mobilità informale</div>
-      <div>Costruire un modello di analisi che integri GPS data</div>
-      <div>Offrire elementi/cognizioni per innovare il policy making</div>
-      <div>Elaborare indicatori di performance</div>
-      <div>Sperimentare visualizzazioni innovative</div>
-      <a href="{{ "/mission/" | relative_url }}"><button>Read more →</button></a>
-  </div>
-
-  <div id="index">
-    <h2>Research Outputs</h2>
-    {%- if site.questions.size > 0 -%}
-    <ul class="post-list">
-      {%- for question in site.questions -%}
-      <li>
-        <h3>
-          <a class="post-link" href="{{ question.url | relative_url }}">
-            {{ question.title | escape }}
-          </a>
-        </h3>
-        <p>
-          {{ question.slug }}
-        </p>
-      </li>
-      {%- endfor -%}
-    </ul>
-    {%- endif -%}
+      <div><i class="fas fa-bus"></i> Studiare il fenomeno della mobilità informale</div>
+      <div><i class="fas fa-chart-line"></i> Costruire un modello di analisi che integri GPS data</div>
+      <div><i class="fas fa-file-signature"></i> Offrire elementi/cognizioni per innovare il policy making</div>
+      <div><i class="fas fa-long-arrow-alt-up"></i> Elaborare indicatori di performance</div>
+      <div><i class="fas fa-asterisk"></i> Sperimentare visualizzazioni innovative</div>
+      <a href="{{ '/mission/' | relative_url }}"><button>Read more →</button></a>
   </div>
 </div>

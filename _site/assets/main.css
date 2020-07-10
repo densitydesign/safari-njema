@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { mar
 main { display: block; }
 
 /** Images */
-img { max-width: 100%; vertical-align: middle; }
+img { display: block; max-width: 100%; vertical-align: middle; border-radius: 0.5rem; margin-left: auto; margin-right: auto; }
 
 /** Figures */
 figure > img { display: block; }
@@ -143,9 +143,9 @@ table td { border: 1px solid white; }
 
 @media screen and (max-width: 768px) { #methodology #index .data-list > li { padding: 15px 0; display: block; } }
 
-#methodology #index .data-list > li > * { width: 50%; margin-bottom: 0; margin-right: 15px; }
+#methodology #index .data-list > li > * { width: 30%; margin-right: 15px; }
 
-@media screen and (max-width: 768px) { #methodology #index .data-list > li > * { width: 100%; } }
+@media screen and (max-width: 768px) { #methodology #index .data-list > li > * { max-width: 100%; } }
 
 .safari--partners { display: grid; grid-template-columns: repeat(3, 33%); grid-template-rows: 1fr; margin: 60px 0; }
 
@@ -189,7 +189,7 @@ table td { border: 1px solid white; }
 
 @media screen and (max-width: 768px) { #datasets #index .data-list > li { padding: 15px 0; display: block; } }
 
-#datasets #index .data-list > li > * { width: 50%; margin-bottom: 0; margin-right: 30px; }
+#datasets #index .data-list > li > * { width: 30%; margin-bottom: 0; margin-right: 30px; }
 
 @media screen and (max-width: 768px) { #datasets #index .data-list > li > * { width: 100%; } }
 
@@ -224,6 +224,8 @@ table td { border: 1px solid white; }
 
 .post-list { margin-left: 0; list-style: none; }
 
+.post-list img { max-width: 200; height: auto; }
+
 .post-list > li { margin-bottom: 30px; }
 
 .post-meta { font-size: 15px; color: seashell; }
@@ -250,8 +252,6 @@ table td { border: 1px solid white; }
 .post-content .main-post-content { grid-column: 3 / 7; padding-top: 30px; }
 
 @media screen and (max-width: 1200px) { .post-content .main-post-content { grid-column: 1 / 7; } }
-
-.post-content .main-post-content p { margin-bottom: 60px; }
 
 .post-content .main-post-content blockquote { font-size: 15px; }
 
@@ -424,9 +424,11 @@ table td { border: 1px solid white; }
 
 .home--objectives { display: flex; flex-wrap: wrap; margin-bottom: 60px; font-size: 17.55px; font-family: "Public Sans", "Helvetica", "Arial", serif; text-align: center; color: #220e00; }
 
-.home--objectives button { padding: 15px 30px; margin-right: 15px; margin-bottom: 15px; text-transform: none; line-height: inherit; font-size: 18px; }
+.home--objectives button { padding: 15px 30px; margin-right: 15px; margin-bottom: 15px; text-transform: none; line-height: inherit; font-size: 19.5px; }
 
-.home--objectives div { margin-right: 15px; margin-bottom: 15px; border: 1px solid #ff0628; padding: 15px 30px; border-radius: 30px; font-weight: 700; font-size: 18px; }
+.home--objectives .fas { margin-right: 0.5rem; color: #ff0628; }
+
+.home--objectives div { margin-right: 30px; margin-bottom: 15px; padding: 15px 0; border-radius: 30px; font-weight: 700; font-size: 19.5px; }
 
 #index { margin-top: 60px; }
 
@@ -438,13 +440,13 @@ table td { border: 1px solid white; }
 
 @media screen and (max-width: 768px) { .post-list > li { padding: 15px 0; display: block; } }
 
-.post-list > li > * { width: 50%; margin-bottom: 0; }
+.post-list > li > * { width: 33%; margin-bottom: 0; margin-right: 30px; }
 
 @media screen and (max-width: 768px) { .post-list > li > * { width: 100%; } }
 
 .home-content blockquote p { column-count: 1; margin-bottom: 60px; }
 
-.home-content p { column-count: 2; column-gap: 30px; margin-bottom: 60px; }
+.home-content p { margin-bottom: 60px; }
 
 @media screen and (max-width: 768px) { .home-content p { column-count: 1; } }
 

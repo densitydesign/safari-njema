@@ -205,11 +205,10 @@
     }
 
     .data-list > li > * {
-      width: 50%;
-      margin-bottom: 0;
+      width: 30%;
       margin-right: $spacing-unit / 2;
       @include media-query($on-palm) {
-       width: 100%;
+       max-width: 100%;
       }
     }
   }
@@ -332,7 +331,7 @@
     }
 
     .data-list > li > * {
-      width: 50%;
+      width: 30%;
       margin-bottom: 0;
       margin-right: $spacing-unit;
       @include media-query($on-palm) {
@@ -431,6 +430,11 @@
   margin-left: 0;
   list-style: none;
 
+  img {
+    max-width: 200;
+    height: auto;
+  }
+
   > li {
     margin-bottom: $spacing-unit;
   }
@@ -514,10 +518,6 @@
 
     @include media-query($on-laptop) {
       grid-column: 1 / 7;
-    }
-
-    p {
-      margin-bottom: $spacing-unit * 2;
     }
 
     blockquote {

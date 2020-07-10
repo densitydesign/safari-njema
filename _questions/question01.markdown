@@ -2,11 +2,9 @@
 title: 'Organizing a ''Map-athon'': first-hand experience of the transportation system
   in Maputo'
 permalink: "/mapathon/"
-categories:
-- uno
 number: 1
-layout: visualization
-type: z
+layout: output
+type: visualization
 expertise:
 - Data analysis
 - Data retrieval
