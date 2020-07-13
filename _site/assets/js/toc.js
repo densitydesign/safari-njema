@@ -1,7 +1,7 @@
 let title = [];
 let link = [];
 
-d3.selectAll("h2").each(function(i) {
+d3.selectAll(".post-content h1, .post-content h2, .post-content h3, .methodology--content h1, .methodology--content h2, .methodology--content h3").each(function(i) {
   title.push(d3.select(this).text());
   link.push(d3.select(this).attr("id"))
   // CREARE UN ARRAY PER RIGA CON DENTRO TITOLO E LINK.

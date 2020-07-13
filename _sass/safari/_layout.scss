@@ -171,6 +171,7 @@
     padding-top: $spacing-unit;
     margin-right: $spacing-unit;
     border-right: 1px solid $grey-color-dark;
+    margin-bottom: 0;
 
     @include media-query($on-laptop) {
       grid-column: 1 / span 6;
@@ -301,6 +302,7 @@
     padding-top: $spacing-unit;
     margin-right: $spacing-unit;
     border-right: 1px solid $grey-color-dark;
+    margin-bottom: 0;
 
     @include media-query($on-laptop) {
       grid-column: 1 / span 6;
@@ -308,6 +310,7 @@
       padding-bottom: $spacing-unit;
       border-right: none;
       border-bottom: 1px solid $grey-color-dark;
+
     }
   }
 
@@ -457,6 +460,11 @@
 
   > li {
     margin-bottom: $spacing-unit;
+  }
+
+  p {
+    color: $grey-color-darker;
+    @include relative-font-size(1);
   }
 }
 
