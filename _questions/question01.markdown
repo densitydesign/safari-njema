@@ -15,6 +15,10 @@ sources:
   link: https://www.openstreetmap.org
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt
+- name: Users position (custom app)
+  link: /
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt
 diagram: "/assets/images/diagram-02.png"
 ---
 
