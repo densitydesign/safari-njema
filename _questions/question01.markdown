@@ -11,20 +11,8 @@ expertise:
 - GIS modelling
 - Urban analysis
 sources:
-- name: GPS (Cuebiq)
-  link: https://www.wikipedia.org/
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt
-- name: Census data
-  link: https://google.com
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt
-- name: Points of interest (POI)
-  link: https://www.wikipedia.org/
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt
-- name: Chapas network
-  link: https://google.com
+- name: OSM Road Network
+  link: https://www.openstreetmap.org
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt
 diagram: "/assets/images/diagram-02.png"
