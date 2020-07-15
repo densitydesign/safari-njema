@@ -1,5 +1,5 @@
 #safari--cover {
-  background-image: url("../assets/images/maputo-cover.png");
+  background-image: url("../assets/images/sat-maputo.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -18,8 +18,8 @@
   .post-title {
     text-align: center;
     @include relative-font-size(6);
-    -webkit-text-stroke-color: $brand-color;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: $grey-color-light;
+    -webkit-text-stroke-width: 2px;
     color: $link-color;
     font-weight: 700;
     width: 90%;
@@ -31,7 +31,7 @@
     width: 95%;
     text-align: center;
     margin: auto;
-    color: $text-color;
+    color: $grey-color-light;
     line-height: 1.1;
   }
 }

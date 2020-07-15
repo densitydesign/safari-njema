@@ -414,11 +414,11 @@ table td { border: 1px solid white; }
 
 .highlight .il { color: #099; }
 
-#safari--cover { background-image: url("../assets/images/maputo-cover.png"); background-size: cover; background-repeat: no-repeat; background-position: center; width: 100vw; height: 100vh; position: relative; left: calc(-50vw + 50%); top: -105px; display: flex; align-items: center; justify-content: center; vertical-align: middle; flex-wrap: wrap; color: #FFFFFF; }
+#safari--cover { background-image: url("../assets/images/sat-maputo.jpg"); background-size: cover; background-repeat: no-repeat; background-position: center; width: 100vw; height: 100vh; position: relative; left: calc(-50vw + 50%); top: -105px; display: flex; align-items: center; justify-content: center; vertical-align: middle; flex-wrap: wrap; color: #FFFFFF; }
 
-#safari--cover .post-title { text-align: center; font-size: 90px; -webkit-text-stroke-color: #ff0628; -webkit-text-stroke-width: 1px; color: #ff4f39; font-weight: 700; width: 90%; margin: auto; }
+#safari--cover .post-title { text-align: center; font-size: 90px; -webkit-text-stroke-color: white; -webkit-text-stroke-width: 2px; color: #ff4f39; font-weight: 700; width: 90%; margin: auto; }
 
-#safari--cover h2 { font-size: 30px; width: 95%; text-align: center; margin: auto; color: #0e1111; line-height: 1.1; }
+#safari--cover h2 { font-size: 30px; width: 95%; text-align: center; margin: auto; color: white; line-height: 1.1; }
 
 #safari--cover .safari--description { width: 1140px; margin: auto; padding: 0 60px; font-size: 19.5px; color: #ff0628; }
 
