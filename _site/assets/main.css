@@ -8,7 +8,7 @@ button { background: #fafbfb; padding: 10px 30px; border-radius: 30px; border: 1
 button:hover { cursor: pointer; background: #ff0628; color: #fafbfb; }
 
 /** Basic styling */
-body { font: normal 15px/1.5 "Public Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; color: #0e1111; background-color: #fafbfb; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
+body { font: normal 15px/1.5 "Public Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; color: #252d2d; background-color: #fafbfb; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
 
 /** Set `margin-bottom` to maintain vertical rhythm */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 30px; }
@@ -37,7 +37,7 @@ a { color: #ff4f39; text-decoration: none; }
 
 a:visited { color: #ff4f39; }
 
-a:hover { color: #0e1111; text-decoration: underline; }
+a:hover { color: #252d2d; text-decoration: underline; }
 
 .social-media-list a:hover { text-decoration: none; }
 
@@ -71,7 +71,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .social-media-list li + li { padding-top: 5px; }
 
 /** Tables */
-table { margin-bottom: 30px; width: 100%; text-align: left; color: #374444; border-collapse: collapse; border: 1px solid white; }
+table { margin-bottom: 30px; width: 100%; text-align: left; color: #4e6060; border-collapse: collapse; border: 1px solid white; }
 
 table tr:nth-child(even) { background-color: white; }
 
@@ -113,7 +113,7 @@ table td { border: 1px solid white; }
 
 .site-nav .menu-icon { display: none; }
 
-.site-nav .page-link { color: #0e1111; line-height: 1.5; }
+.site-nav .page-link { color: #252d2d; line-height: 1.5; }
 
 .site-nav .page-link:not(:last-child) { margin-right: 20px; }
 
@@ -165,7 +165,7 @@ table td { border: 1px solid white; }
 
 @media screen and (max-width: 768px) { .safari--partners .safari--departments { grid-column: 1 / span 3; } }
 
-.safari--partners .safari--departments h3 { font-size: 19.5px; padding-top: 12px; border-top: 1px solid #e6ebeb; color: #0e1111; }
+.safari--partners .safari--departments h3 { font-size: 19.5px; padding-top: 12px; border-top: 1px solid #e6ebeb; color: #252d2d; }
 
 .safari--partners div { grid-column: span 1; margin-bottom: 30px; }
 
@@ -210,7 +210,7 @@ table td { border: 1px solid white; }
 
 .contact-list, .social-media-list { list-style: none; margin-left: 0; }
 
-.footer-col-wrapper { font-size: 14.0625px; color: #0e1111; margin-left: -15px; }
+.footer-col-wrapper { font-size: 14.0625px; color: #252d2d; margin-left: -15px; }
 
 .footer-col { float: left; margin-bottom: 15px; padding-left: 15px; }
 
@@ -243,7 +243,7 @@ table td { border: 1px solid white; }
 /** Posts */
 .post-header { margin-bottom: 30px; }
 
-.post-title { font-size: 45px; line-height: 1.1; color: #0e1111; font-weight: 700; margin-top: 45px; margin-bottom: 60px; width: 80%; }
+.post-title { font-size: 45px; line-height: 1.1; color: #252d2d; font-weight: 700; margin-top: 45px; margin-bottom: 60px; width: 80%; }
 
 @media screen and (max-width: 768px) { .post-title { width: 100%; font-size: 46.5px; } }
 
@@ -432,7 +432,7 @@ table td { border: 1px solid white; }
 
 .home blockquote em { color: #ff0628; }
 
-.home--objectives { display: flex; flex-wrap: wrap; margin-bottom: 60px; font-size: 17.55px; font-family: "Public Sans", "Helvetica", "Arial", serif; text-align: center; color: #0e1111; }
+.home--objectives { display: flex; flex-wrap: wrap; margin-bottom: 60px; font-size: 17.55px; font-family: "Public Sans", "Helvetica", "Arial", serif; text-align: center; color: #252d2d; }
 
 .home--objectives button { padding: 15px 30px; margin-right: 15px; margin-bottom: 15px; text-transform: none; line-height: inherit; font-size: 19.5px; }
 
