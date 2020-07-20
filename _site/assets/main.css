@@ -169,13 +169,15 @@ table td { border: 1px solid white; }
 
 .safari--partners .safari--departments h3 { font-size: 19.5px; padding-top: 12px; border-top: 1px solid #d8dfdf; color: #252d2d; }
 
+.safari--partners .safari--logos { display: flex; align-items: center; justify-content: center; }
+
 .safari--partners div { grid-column: span 1; margin-bottom: 30px; }
 
 @media screen and (max-width: 768px) { .safari--partners div { grid-column: 1 / span 3; } }
 
 .safari--partners div p { margin: 0; }
 
-.safari--partners img { width: auto; max-height: 90px; }
+.safari--partners img { width: auto; max-height: 90px; max-width: 200px; }
 
 #datasets { border-top: 1px solid #d8dfdf; display: grid; grid-template-columns: repeat(6, 16.7%); }
 
@@ -471,6 +473,12 @@ table td { border: 1px solid white; }
 @media screen and (max-width: 768px) { .home-content p { column-count: 1; } }
 
 .question__visualization { grid-column: 1 / 5; border-top: 1px solid #d8dfdf; margin-top: 60px; padding: 30px 0; }
+
+.pagination { text-transform: none; font-weight: normal; width: 300px; padding: 7.5px; }
+
+.pagination__arrow { margin: 6px; }
+
+.pagination__next { justify-self: end; }
 
 .post-content > blockquote { font-size: 30px; color: #ff0628; }
 

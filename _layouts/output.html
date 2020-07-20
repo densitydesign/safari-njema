@@ -1,8 +1,32 @@
 ---
 layout: default
 ---
+{% capture the_collection %}{{page.collection}}{% endcapture %}
+{% if page.collection %}
+    {% assign  document = site[the_collection]  %}
+{% endif %}
+{% for links in document  %}
+    {% if links.title == page.title %}
+        {% unless forloop.first %}
+            {% assign prevurl = prev.url %}
+            {% assign prevtitle = prev.nav %}
+            {% assign prevname = prev.title %}
+        {% endunless %}
+        {% unless forloop.last %}
+            {% assign next = document[forloop.index] %}
+            {% assign nexturl = next.url %}
+            {% assign nexttitle = next.nav %}
+            {% assign nextname = next.title %}
+        {% endunless %}
+    {% endif %}
+    {% assign prev = links %}
+{% endfor %}
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <div style="display: flex; width: 100%; align-content: space-between;">
+  {% if prevurl %}<a href="{{prevurl | relative_url }}"><button class="pagination pagination__prev"><span class="pagination__arrow">&larr;</span><span class="pagination__link">{{ prevname | truncatewords:6 }}</span></button></a>{% endif %}
+  {% if nexturl %}<a href="{{nexturl | relative_url }}" class="pagination__next"><button class="pagination"><span class="pagination__link">{{ nextname | truncatewords:6 }}</span><span class="pagination__arrow">&rarr;</span></button></a>{% endif %}
+  </div>
 
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
@@ -37,25 +61,3 @@ layout: default
 
   <a class="u-url" href="{{ page.url | relative_url }}"></a>
 </article>
-
-<div id="index" class="minified">
-  <h3>Other outputs</h3>
-  {%- if site.questions.size > 0 -%}
-    <ul class="post-list">
-      {%- for question in site.questions -%}
-        {%- if question.title != page.title -%}
-          <li>
-            <h3>
-              <a class="post-link" href="{{ question.url | relative_url }}">
-                {{ question.title | escape }}
-              </a>
-            </h3>
-            <p>
-              {{ question.author }}
-            </p>
-          </li>
-        {%- endif -%}
-      {%- endfor -%}
-    </ul>
-  {%- endif -%}
-</div>

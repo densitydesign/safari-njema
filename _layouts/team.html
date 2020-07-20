@@ -26,10 +26,11 @@ layout: default
       </div>
     {%- endfor -%}
   </div>
+  <h2>Partners</h2>
   <div class="safari--partners">
     {%- for partner in site.data.partners -%}
       <div class="safari--logos">
-        <img src="{{ partner.logo | relative_url }}" alt="{{ partner.name }}">
+        <a href="{{ partner.link | absolute_url }}"><img src="{{ partner.logo | relative_url }}" alt="{{ partner.name }}"></a>
       </div>
     {%- endfor -%}
   </div>

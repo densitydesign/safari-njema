@@ -11,6 +11,21 @@
   padding: $spacing-unit 0;
 }
 
+.pagination {
+  text-transform: none;
+  font-weight: $base-font-weight;
+  width: $spacing-unit * 10;
+  padding: $spacing-unit / 4;
+}
+
+.pagination__arrow {
+  margin: $spacing-unit / 5;
+}
+
+.pagination__next {
+  justify-self: end;
+}
+
 .post-content > blockquote {
   @include relative-font-size(2);
   color: $brand-color;

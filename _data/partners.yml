@@ -1,10 +1,24 @@
 - name: Agenzia Italiana per la Cooperazione allo Sviluppo
   logo: /assets/images/logos/aisc.png
+  link: https://www.aics.gov.it/language/en/
 - name: Universidade Eduardo Mondlane
   logo: /assets/images/logos/mondlane.png
+  link: https://www.uem.mz/
 - name: Cuebiq - Intelligence in Action
   logo: /assets/images/logos/cuebiq.png
+  link: https://www.cuebiq.com/
 - name: Vodacom Mozambique
   logo: /assets/images/logos/vodacom.png
-- name: Waza Think-and-do Tank
-  logo: /assets/images/logos/waza.png
+  link: https://www.vodacom.co.za/
+- name: T-SUM
+  logo: /assets/images/logos/tsum.png
+  link: https://www.t-sum.org/
+- name: AMT
+  logo: /assets/images/logos/amt.png
+  link: http://www.amt.gov.mz/
+- name: UN-Habitat
+  logo: /assets/images/logos/unhabitat.png
+  link: https://unhabitat.org/
+- name: Programa de Desenvolvimento Espacial
+  logo: /assets/images/logos/pde.png
+  link: https://www.pde.gov.mz/
