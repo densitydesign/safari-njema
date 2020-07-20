@@ -10,10 +10,19 @@ layout: default
   <div class="methodology--content">{{ content }}</div>
   <div class="safari--partners">
     <h2>People</h2>
-    {%- for people in site.data.people -%}
+    {%- for people in site.data.people.team -%}
       <div>
-        <p><b>{{ people.contact }}</b> ({{ people.department }})</p>
+        <p><b>{{ people.contact }}</b></p>
+        <p>{{ people.department }}</p>
         <p><i>{{ people.role }}</i></p>
+      </div>
+    {%- endfor -%}
+    <h4 style="grid-column: span 2; margin-top: 3rem;"> Master Students </h4>
+    {%- for student in site.data.people.master -%}
+      <div>
+        <p><b>{{ student.contact }}</b></p>
+        <p>{{ student.department }}</p>
+        <p><i>{{ student.role }}</i></p>
       </div>
     {%- endfor -%}
   </div>

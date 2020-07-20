@@ -23,6 +23,9 @@ layout: default
         </a>
       </h2>
         <p>{{ question.content | strip_html | truncatewords:75}}</p>
+        <a class="post-link" href="{{ question.url | relative_url }}"><button>
+          Read more...
+        </button></a>
       </span>
     </li>
     {%- endfor -%}

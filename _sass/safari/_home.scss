@@ -36,6 +36,15 @@
   }
 }
 
+#home {
+  img {
+    width: 100vw !important;
+    position: relative;
+    left: calc(-50vw + 50%);
+    border-radius: 0;
+  }
+}
+
 #safari--cover .safari--description {
   width: 1140px;
   margin: auto;

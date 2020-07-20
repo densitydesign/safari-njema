@@ -39,6 +39,7 @@
   }
 
   .wrapper {
+
     div {
       display: inline-block;
       margin-right: $spacing-unit / 3;
@@ -155,6 +156,13 @@
 /**
  * About
  */
+
+ .hero--mission {
+   width: 100vw;
+   position: relative;
+   left: calc(-50vw + 50%);
+   border-radius: 0;
+ }
 
 #methodology {
   display: grid;
@@ -514,7 +522,6 @@
     grid-column: 1 / 3;
     grid-row: 1 / span 1000;
     padding-right: $spacing-unit;
-    margin-right: $spacing-unit;
     border-right: 1px solid $grey-color-dark;
 
     @include media-query($on-laptop) {
@@ -542,9 +549,11 @@
   .main-post-content {
     grid-column: 3 / 7;
     padding-top: $spacing-unit;
+    border-right: 1px solid $grey-color-dark;
 
     @include media-query($on-laptop) {
       grid-column: 1 / 7;
+      border-right: 0;
     }
 
     blockquote {
@@ -552,36 +561,68 @@
     }
 
     h2 {
-      @include relative-font-size(1.2);
-      margin-top: 0;
-      margin-bottom: $spacing-unit / 2;
+      @include relative-font-size(2);
+      margin-top: $spacing-unit * 2;
+      margin-bottom: $spacing-unit * 1.5;
+      text-align: center;
+      border-top: 1px solid $grey-color-dark;
+
+      @include media-query($on-laptop) {
+        @include relative-font-size(2);
+        padding: $spacing-unit 0 0 0;
+      }
+      padding: $spacing-unit $spacing-unit 0 $spacing-unit;
+    }
+
+    h3 {
+      margin-top: $spacing-unit * 2;
+      margin-bottom: $spacing-unit * 1.5;
+      
+      @include relative-font-size(1.5);
+
+      @include media-query($on-laptop) {
+        @include relative-font-size(1.5);
+        padding: 0;
+      }
+      padding: 0 $spacing-unit;
+      color: $grey-color-darker;
+      font-weight: $base-font-weight;
+    }
+
+    h4 {
+      @include relative-font-size(1.3);
 
       @include media-query($on-laptop) {
         @include relative-font-size(1.3);
       }
+      padding: 0 $spacing-unit;
+      color: $grey-color-darker;
     }
 
-    h3 {
-      @include relative-font-size(1.2);
+    p, ol, ul {
+      @include relative-font-size(1.1);
 
       @include media-query($on-laptop) {
         @include relative-font-size(1.2);
+        padding: 0;
       }
-    }
 
-    h4 {
-      @include relative-font-size(1.25);
-
-      @include media-query($on-laptop) {
-        @include relative-font-size(1.125);
-      }
+      padding: 0 $spacing-unit;
     }
 
     p {
-      @include relative-font-size(1);
+      text-indent: $spacing-unit;
+    }
+
+    img {
+      position: relative;
+      left: -$spacing-unit;
+      width: calc(100% + 60px);
+      margin: $spacing-unit * 2 0;
+      outline: 1px solid $grey-color-dark;
 
       @include media-query($on-laptop) {
-        @include relative-font-size(1);
+        width: calc(100% + 49px);
       }
     }
 
@@ -592,6 +633,13 @@
       em {
         color: $brand-color;
       }
+    }
+
+    img + em {
+      position: relative;
+      width: 100%;
+      color: $grey-color-darker;
+      top: -$spacing-unit;
     }
 
     .footnotes {

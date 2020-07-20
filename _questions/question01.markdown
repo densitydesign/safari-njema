@@ -24,7 +24,7 @@ diagram: "/assets/images/diagram-02.png"
 
 As a first experiment, a small map-athon was organized in Maputo within the research team to have a first hand experience of the mobility systems in the city. For the Mobility Week organized in September, members of the research teams explored the city with formal and para-transit transportations systems through the whole week, gathering data both from the platforms provided by the research partners, and from a simple web app developed for this purpose.
 
-![image-title-here]({{ "/assets/images/map-athon-mockup.jpg" | relative_url }})
+![image-title-here]({{ "/assets/images/map-athon-mockup.jpg" | relative_url }}) *Screenshot of the landing page of the online web application designed for the Mapathon.*
 
 ## Experiment methodology
 1. Researchers explored the city using four different kinds of transportation methods: Machinbombo, taxi, Xopela, private car, walk and Chapas.

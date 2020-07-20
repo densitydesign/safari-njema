@@ -4,4 +4,7 @@ permalink: "/team/"
 layout: team
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+#### DATA@TER – DATA FOR/FROM TERRITORIES
+Objectives - New approaches to spatial analysis, correlation of information and knowledge building. Data collection and analysis; visualisation and communication of complex phenomena that data analysis allows us to explore; analysis of production processes and management of complex data sets and the processes they derive from; analysis and management of complex socio-environmental phenomena; design and planning for/of spatial systems; creation and production of services that can be used in management; policy design; building and management of collaborative processes to build sustainable companies; design of governance strategies, plans and models.
+
+In order to deliver an optimal service, and to guarantee quality and sustainability in the limited timeframe avail-able, we have set up a team composed mainly by senior personnel of POLIMI pertaining to different disciplinary domains and with a solid track of collaboration in previous research activity within the framework of the POLIMI interdepartmental team Data@Ter (Data from/forTerritory). The team is balanced in competences and gender composition. Annex D provides additional details regarding the expertise of each team member.

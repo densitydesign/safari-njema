@@ -1,10 +1,9 @@
+team:
 - contact: Simone Vantini
   role: Scientific Coordinator
   department: Department of Mathematics
 - contact: Michela Arnaboldi
   role: Project Manager
-  department: Department of Management, Economics and Industrial Engineering
-- contact: Paola Riva
   department: Department of Management, Economics and Industrial Engineering
 - contact: Valeria Fedeli
   department: Department of Architecture and Urban Studies
@@ -14,6 +13,8 @@
   department: Department of Design
 - contact: Marco Brambilla
   department: Department of Electronics, Information And Bioengineering
+- contact: Paola Riva
+  department: Department of Management, Economics and Industrial Engineering
 - contact: Anna Calissano
   department: Department of Mathematics, Department of Architecture and Urban Studies
   role: Joint PhD Candidate
@@ -26,3 +27,42 @@
   department: Department of Architecture and Urban Studies
 - contact: Andrea Mascaretti
   department: Department of Mathematics
+- contact: Emre Calisir
+  department: Department of Electronics, Information And Bioengineering
+  role: PhD Candidate
+- contact: Elena Castelli
+  department: MSc in Management, Economics and Industrial Engineering
+  role:
+- contact: Gianluca Zeni
+  department: Department of Mathematics
+  role:
+- contact: Mattia Gasparini
+  department: Department of Electronics, Information And Bioengineering
+  role:
+- contact: Anna Mazzolini
+  department: Department of Architecture and Urban Studies
+master:
+- contact: Alessandro Perego
+  department: Department of Electronics, Information And Bioengineering
+  role: Master Student
+- contact: Celeste Principi
+  department: MSc in Mathematical Engineering
+  role: Master Student
+- contact: Irene Azzini
+  department: MSc in Mathematical Engineering
+  role: Master Student
+- contact: Artem Ugarov
+  department: MSc in Mathematical Engineering
+  role: Master Student
+- contact: Elena Zazzetti
+  department: MSc in Mathematical Engineering
+  role: Master Student
+- contact: Davide Ranieri
+  department: MSc in Mathematical Engineering
+  role: Master Student
+- contact: Alessandra Facchin
+  department: MSc in Communication Design
+  role: Master Student
+- contact: Kiarash Pooladsaz
+  department: Department of Architecture and Urban Studies
+  role: Master Student
