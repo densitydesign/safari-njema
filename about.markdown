@@ -9,8 +9,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ## Research objectives
 Pellentesque dignissim enim sit amet venenatis. Dignissim convallis aenean et tortor at. At tempor commodo ullamcorper a. In ornare quam viverra orci sagittis eu volutpat odio. Odio facilisis mauris sit amet. Libero id faucibus nisl tincidunt eget nullam non nisi est. Semper auctor neque vitae tempus quam pellentesque nec nam. Fames ac turpis egestas integer eget aliquet nibh. Diam quis enim lobortis scelerisque fermentum dui faucibus. Lacus sed viverra tellus in hac habitasse platea dictumst vestibulum. Ullamcorper malesuada proin libero nunc consequat interdum varius.
 
-![image-title-here](https://upload.wikimedia.org/wikipedia/commons/2/27/Chapas_em_Maputo_%2818836878155%29.jpg)
-*Photography by MOPA Maputo, distributed under a CC-BY 2.0 license.*
+![image-title-here]({{ 'assets/images/home/FA87206E-86AF-457F-ACBB-E9D116DEB889.JPG' | relative_url }})
 
 Imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Molestie ac feugiat sed lectus vestibulum mattis. Nisi scelerisque eu ultrices vitae auctor eu augue. Turpis massa tincidunt dui ut ornare lectus sit. Tortor id aliquet lectus proin nibh. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus aenean. Egestas sed tempus urna et pharetra pharetra massa massa ultricies. Ultricies leo integer malesuada nunc vel. Lectus mauris ultrices eros in cursus turpis massa tincidunt dui. Venenatis urna cursus eget nunc scelerisque viverra mauris. Cursus euismod quis viverra nibh cras. Tincidunt vitae semper quis lectus nulla. Sit amet facilisis magna etiam tempor. Diam vulputate ut pharetra sit amet aliquam. Ornare lectus sit amet est placerat in egestas. Et ultrices neque ornare aenean euismod elementum nisi.
 
