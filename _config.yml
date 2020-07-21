@@ -1,12 +1,17 @@
 ---
 title: Safari
 timezone: UTC
-
 collections:
+  posts:
+    title: Posts
+    output: true
   questions:
+    title: Questions
     output: true
     permalink: "/:title"
-
+  uploads:
+    title: Uploads
+    output: true
 defaults:
 - scope:
     path: ''
@@ -18,7 +23,6 @@ defaults:
     path: ''
   values:
     layout: intro
-
 description: POLISOCIAL è il programma di impegno e responsabilità sociale presso
   il Politecnico di Milano. www.polisocial.polimi.it
 baseurl: "/safari-njema"
