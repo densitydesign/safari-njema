@@ -7,7 +7,6 @@ type: post
 sources:
 - name: Trajectories
 - name: Origin Destination
-
 ---
 
 Automatic Road Pavement Detection consists in the development of a machine learning pipeline aimed at the classification of road surfaces based on the colour of the pavement and its particular location.
