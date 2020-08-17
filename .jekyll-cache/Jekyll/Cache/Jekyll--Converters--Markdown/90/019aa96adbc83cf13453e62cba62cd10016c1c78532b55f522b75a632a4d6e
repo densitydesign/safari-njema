@@ -1,0 +1,7 @@
+I"µ<p>The dataset contains spatiotemporal information on a vast number of smartphones. Data are recorded following a time or a space criterion, depending on the operating system of the particular device. An anonymised ID is associated to every device and each observation is captured in terms of a GPS position and of a time accuracy up to the second. This, in turn, allows for the analysis of the trajectories of users and to extract knowledge on issues of human mobility such as traffic and an assessment of the public transport infrastructure that is most needed.
+The dataset is constructed and maintained by the Data for Good division of Cuebiq.
+The dataset exemplifies at best the capabilities of modern-day devices, together with the new challenges.</p>
+
+<p>The privacy of users is guaranteed by correcting their location whenever in proximity of a sensitive position (workplace, house, hospitals, â€¦) and by ensuring that it is impossible to identify the actual owner of the device.
+At the same time, it shows how the collective aggregation of individual data can be leveraged by public policy planners to acquire information about local populations that would be otherwise impossible to obtain.</p>
+:ET
