@@ -24,10 +24,12 @@ layout: default
 {% endfor %}
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  {%- if page.type == "post" -%}
   <div style="display: flex; flex-wrap: wrap; width: 100%; justify-content: space-between;">
   {% if prevurl %}<a href="{{prevurl | relative_url }}"><span class="pagination__arrow">&larr;</span><span class="pagination__link">{{ prevname | truncatewords:6 }}</span></a>{% endif %}
   {% if nexturl %}<a href="{{nexturl | relative_url }}" class="pagination__next"><span class="pagination__link">{{ nextname | truncatewords:6 }}</span><span class="pagination__arrow">&rarr;</span></a>{% endif %}
   </div>
+  {%- endif -%}
 
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
@@ -41,18 +43,18 @@ layout: default
 
   <div class="post-content e-content" itemprop="articleBody">
     <aside class="post-meta">
+      {%- if page.sources -%}
       <h4>Data</h4>
       <ul style="padding: 0; margin-left: 0;">
         {% for source in page.sources %}
           <li style="margin-bottom: 0.5rem; list-style: none"><a href="{{ source.link }}" target="_blank"> <p style="margin-bottom: 0">{{ source.name }}</p></a></li>
         {% endfor %}
       </ul>
-      <!-- <h4>Expertise</h4>
-      <ul style="padding: 0; margin-left: 0;">
-        {% for expertise in page.expertise %}
-          <li style="border: 1px solid #f5546c; text-align: center; padding: 0.3rem 0.6rem; margin-bottom: 0.5rem; border-radius: 100px; color: black; list-style: none;"><p style="margin-bottom: 0">{{ expertise }}</p></li>
-        {% endfor %}
-      </ul> -->
+      {%- endif -%}
+      {%- if page.calendar -%}
+      <h4>Calendar</h4>
+      <p>{{ page.calendar }} - {{ page.location }}</p>
+      {%- endif -%}
       <div id="table--of--content"></div>
     </aside>
     <div class="main-post-content">

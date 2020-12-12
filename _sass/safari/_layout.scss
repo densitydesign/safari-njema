@@ -530,6 +530,7 @@
     grid-row: 1 / span 1000;
     padding-right: $spacing-unit;
     border-right: 1px solid $grey-color-dark;
+    color: $grey-color-darker;
 
     @include media-query($on-laptop) {
       grid-column: 1 / 7;
