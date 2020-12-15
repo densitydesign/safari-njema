@@ -2,6 +2,7 @@
 title: 'Organizing a Map-athon: first-hand experience of the transportation system
   in Maputo'
 permalink: "/mapathon/"
+cover: /assets/images/question01/cover.jpg
 number: 1
 layout: output
 type: visualization

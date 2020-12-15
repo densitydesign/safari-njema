@@ -1,9 +1,10 @@
 ---
 title: Request and Offer in Public Transport System
+cover: /assets/images/question03/OD-matrices2.jpeg
 permalink: "/request/"
 number: 3
 layout: output
-type: post
+type: visualization
 sources:
 - name: Trajectories
 - name: Origin Destination
@@ -26,3 +27,5 @@ Given a set of localization in time, the first step is to identify if a point be
 
 ### Origin Destination Matrices Building
 Given a set of trajectories obtained by GPS traces data preprocessing, we aggregate them into hourly origin destination matrices. The Maputo Metropolitan Area has been divided into the morphological areas described in output - possiamo fare riferimento con link all’output 2?. The origin destination matrices are  a network where every node is a morphological area and every edge between two areas count the number of trajectories starting in one area and ending in the other area. The edge weight correspond to the number of trajectories leaving within a certain hour.
+
+![]({{ 'assets/images/question03/OD-matrices1.jpeg' | relative_url }})

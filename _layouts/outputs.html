@@ -17,7 +17,7 @@ layout: default
     {%- if page.filter == "events" -%}
       {%- if question.type == "event" -%}
       <li>
-        <img src="https://via.placeholder.com/1200x800" style="margin: 0; margin-right: 2rem; margin-bottom: 2rem;">
+        <img src="{{ question.cover | relative_url }}" style="margin: 0; margin-right: 2rem; margin-bottom: 2rem;">
         <span>
         <h2>
           <a class="post-link" href="{{ question.url | relative_url }}">
@@ -34,7 +34,7 @@ layout: default
     {% else %}
       {%- if question.type != "event" -%}
       <li>
-        <img src="https://via.placeholder.com/1200x800" style="margin: 0; margin-right: 2rem; margin-bottom: 2rem;">
+        <img src="{{ question.cover | relative_url }}" style="margin: 0; margin-right: 2rem; margin-bottom: 2rem;">
         <span>
         <h2>
           <a class="post-link" href="{{ question.url | relative_url }}">
