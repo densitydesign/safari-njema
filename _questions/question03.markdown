@@ -1,7 +1,7 @@
 ---
 title: Request and Offer in Public Transport System
-cover: /assets/images/question03/OD-matrices2.jpeg
 permalink: "/request/"
+cover: "/assets/images/question03/OD-matrices2.jpeg"
 number: 3
 layout: output
 type: visualization

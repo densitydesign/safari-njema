@@ -1,7 +1,7 @@
 ---
 title: Automatic Road Pavement Detection
 permalink: "/road-pavement-detection/"
-cover: /assets/images/question04/cover.jpg
+cover: "/assets/images/question04/cover.jpg"
 number: 4
 layout: output
 type: post

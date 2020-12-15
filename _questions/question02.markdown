@@ -1,7 +1,7 @@
 ---
 title: Accessibility, equity and social exclusion
 permalink: "/accessibility/"
-cover: /assets/images/question02/cover.jpg
+cover: "/assets/images/question02/cover.jpg"
 number: 2
 layout: output
 type: post
