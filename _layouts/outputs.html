@@ -22,10 +22,7 @@ layout: default
         <h2>
             {{ question.title | escape }}
         </h2>
-          <p>{{ question.content | strip_html | truncatewords:75}}</p>
-          <a class="post-link" href="{{ question.url | relative_url }}"><button>
-            Read more...
-          </button></a>
+          <p>{{ question.calendar | escape }} — {{ question.location | escape }}</p>
         </span>
       </li>
       {%- endif -%}
