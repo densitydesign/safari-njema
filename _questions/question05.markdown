@@ -8,7 +8,7 @@ layout: output
 type: post
 sources:
 - name: Table 1. Literature review
-  link: "/assets/images/question05/appendix-1.pdf"
+  link: "../assets/images/question05/appendix-1.pdf"
 - name: Map of the city
 - name: Code files
 ---
