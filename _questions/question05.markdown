@@ -9,8 +9,8 @@ type: post
 sources:
 - name: Table 1. Literature review
   link: "../assets/images/question05/appendix-1.pdf"
-- name: Map of the city
-- name: Code files
+- name: Table 2. Performance indicators
+  link: "../assets/images/question05/appendix-2.pdf"
 ---
 
 Designing an efficient mobility system affects not only the transportation service but has also consequences in terms of economic growth and social integration, since efficient transportation service exacerbates poverty and inequality. This motivates the development of this specific study within SAFARI project, concerned with the management of transportation systems characterized by both formal and paratransit forms of mobility in the particular context of Sub-Saharan African (SSA) countries, where Maputo (Mozambique) has been selected as pilot case. 
