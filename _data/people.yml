@@ -17,31 +17,26 @@ team:
   department: Department of Management, Economics and Industrial Engineering
 - contact: Anna Calissano
   department: Department of Mathematics, Department of Architecture and Urban Studies
-  role: Joint PhD Candidate
 - contact: Francesco Leoni
   department: Department of Design, Department of Architecture and Urban Studies
-  role: Joint PhD Candidate
-- contact: Andrea Benedetti
-  department: Department of Design
 - contact: Francesco Fagiani
   department: Department of Architecture and Urban Studies
+- contact: Andrea Benedetti
+  department: Department of Design
 - contact: Andrea Mascaretti
   department: Department of Mathematics
 - contact: Emre Calisir
   department: Department of Electronics, Information And Bioengineering
-  role: PhD Candidate
-- contact: Elena Castelli
-  department: MSc in Management, Economics and Industrial Engineering
-  role:
 - contact: Gianluca Zeni
   department: Department of Mathematics
-  role:
 - contact: Mattia Gasparini
   department: Department of Electronics, Information And Bioengineering
-  role:
 - contact: Anna Mazzolini
   department: Department of Architecture and Urban Studies
 master:
+- contact: Elena Castelli
+  department: MSc in Management, Economics and Industrial Engineering
+  role: Master Student
 - contact: Alessandro Perego
   department: Department of Electronics, Information And Bioengineering
   role: Master Student

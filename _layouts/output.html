@@ -4,7 +4,9 @@ layout: default
 
 {% capture the_collection %}{{page.collection}}{% endcapture %}
 {% if page.collection %}
+  {%- if page.filter != "events" -%}
     {% assign document = site[the_collection]  %}
+  {%- endif -%}
 {% endif %}
 {% for links in document  %}
     {% if links.title == page.title %}
@@ -24,12 +26,10 @@ layout: default
 {% endfor %}
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-  {%- if page.type == "post" -%}
   <div style="display: flex; flex-wrap: wrap; width: 100%; justify-content: space-between;">
   {% if prevurl %}<a href="{{prevurl | relative_url }}"><span class="pagination__arrow">&larr;</span><span class="pagination__link">{{ prevname | truncatewords:6 }}</span></a>{% endif %}
   {% if nexturl %}<a href="{{nexturl | relative_url }}" class="pagination__next"><span class="pagination__link">{{ nextname | truncatewords:6 }}</span><span class="pagination__arrow">&rarr;</span></a>{% endif %}
   </div>
-  {%- endif -%}
 
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
@@ -44,7 +44,7 @@ layout: default
   <div class="post-content e-content" itemprop="articleBody">
     <aside class="post-meta">
       {%- if page.sources -%}
-      <h4>Data</h4>
+      <h4>Resources</h4>
       <ul style="padding: 0; margin-left: 0;">
         {% for source in page.sources %}
           <li style="margin-bottom: 0.5rem; list-style: none"><a href="{{ source.link }}" target="_blank"> <p style="margin-bottom: 0">{{ source.name }}</p></a></li>

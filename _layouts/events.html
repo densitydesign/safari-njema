@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div id="methodology" class="outputs">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  <div class="methodology--content">{{ content }}</div>
+</div>
+
+<div id="index">
+  <ul class="post-list">
+    {%- for event in page.events -%}
+      <li>
+        <img src="{{ question.cover | relative_url }}" style="margin: 0; margin-right: 2rem; margin-bottom: 2rem;">
+        <span>
+        <h2>
+            {{ event.title | escape }}
+        </h2>
+          <p>{{ event.calendar | escape }} — {{ event.location | escape }}</p>
+        </span>
+      </li>
+    {%- endfor -%}
+  </ul>
+</div>

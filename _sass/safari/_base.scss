@@ -133,6 +133,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: $link-color;
   text-decoration: none;
+  transition: 0.2s color ease;
 
   &:visited {
     color: $link-color;

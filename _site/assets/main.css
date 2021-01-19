@@ -33,7 +33,7 @@ li > ul, li > ol { margin-bottom: 0; }
 h1, h2, h3, h4, h5, h6 { color: #ff0628; font-family: "Public Sans", "Helvetica", "Arial", serif; font-weight: 700; }
 
 /** Links */
-a { color: #ff4f39; text-decoration: none; }
+a { color: #ff4f39; text-decoration: none; transition: 0.2s color ease; }
 
 a:visited { color: #ff4f39; }
 
