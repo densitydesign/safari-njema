@@ -11,6 +11,8 @@ sources:
   link: "../assets/images/question05/appendix-1.pdf"
 - name: Table 2. Performance indicators
   link: "../assets/images/question05/appendix-2.pdf"
+- name: Table 3. Problems in Maputo
+  link: "../assets/images/question05/appendix-3.pdf"
 ---
 
 Designing an efficient mobility system affects not only the transportation service but has also consequences in terms of economic growth and social integration, since efficient transportation service exacerbates poverty and inequality. This motivates the development of this specific study within SAFARI project, concerned with the management of transportation systems characterized by both formal and paratransit forms of mobility in the particular context of Sub-Saharan African (SSA) countries, where Maputo (Mozambique) has been selected as pilot case.
@@ -29,8 +31,9 @@ Though the development of an efficient mobility system is recognized to impact o
 ### Systematization of secondary sources on formal and paratransit mobility in Sub-Saharan Africa (SSA) countries
 While variegated documentation exists on the evaluation of mobility systems through performance measurement system (PMS) in developed countries, sparse documentation exists on the topic of transportation system in Sub Saharan countries (SSA). Pushed also by local actors, who expressed the necessity to collect all existing material concerned with the study of mobility systems including paratransit transport systems, especially in SSA, one of the first activity conducted by SAFARI has been the systematization of extant documentation, both from academic and practitioner sources. In particular, SAFARI contributed to the systematization of (1) documentation connected to paratransit modes of transport and their characteristics, including main problematics of mobility at SSA level and (2) international, national and local projects concerned with the identification of performance dimensions and measures for mobility systems in SSA.
 
-![Performance indicators description]({{ 'assets/images/question05/table-2.jpg' | relative_url }})
-*Table 2. Performance indicators*
+[→ Table 1. Literature review]({{ '/assets/images/question05/appendix-1.pdf' | relative_url }})
+
+[→ Table 2. Performance indicators]({{ '/assets/images/question05/appendix-2.pdf' | relative_url }})
 
 ### Identification of key stakeholders in formal and paratransit mobility arena and identification of their needs
 The SAFARI team conducted a stakeholder analysis integrating the analysis of secondary sources with the primary sources collected through on-the-field analysis to identify the key stakeholders in play in the formal and paratransit mobility arena. Beyond mapping actors involved in the complex mobility system of Maputo, SAFARI team in collaboration with local actors identified needs and priorities of three main categories of stakeholders, namely the regulator, operator and final user.
@@ -39,6 +42,8 @@ The SAFARI team conducted a stakeholder analysis integrating the analysis of sec
 *Table 2. Performance indicators*
 
 ![Stakeholder framework]({{ 'assets/images/question05/stakeholders-map-01.png' | relative_url }})
+
+[→ Table 3. Problems in Maputo]({{ '/assets/images/question05/appendix-2.pdf' | relative_url }})
 
 ### Identification of key performances dimensions, metrics and indicators for performance measurement of formal and paratransit mobility in Maputo
 Combining the analysis of (1) extant studies and projects dealing with formal and paratransit mobility systems, (2) secondary sources on performance measurement systems and indicators adopted in developed and developing countries to measure and control mobility with specific focus on Sub-Saharan Africa (SSA) countries and (3) primary sources collected through an action research methodology in Maputo and thanks to the direct interaction with key actors in the mobility arena in Maputo, SAFARI developed a theoretical framework for mobility systems in SSA countries. In particular, Skype and Whatsapp communication, participation to online and onsite events, one-to-one interviews, field observations in Maputo supported the adaptation of the framework to the specific needs and priorities of key actors to the specific case of Maputo.
