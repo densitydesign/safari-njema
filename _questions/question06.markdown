@@ -1,13 +1,13 @@
 ---
-title: "Mapping and representing informal transport: state of the art"
+title: 'Mapping and representing informal transport: state of the art'
 permalink: "/mapping-informal-transit/"
 cover: "/assets/images/question05/cover.jpg"
 number: 6
 layout: output
 type: post
 sources:
-  - name: Original post
-    link: https://densitydesign.org/2019/05/mapping-and-representing-informal-transport-the-state-of-the-art/
+- name: Original post
+  link: https://densitydesign.org/2019/05/mapping-and-representing-informal-transport-the-state-of-the-art/
 ---
 
 This research is a preliminary step for an upcoming project. Its focus is to describe the state of the art of Informal Transport Mapping in Sub-Saharan Africa.
