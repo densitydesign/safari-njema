@@ -14,12 +14,13 @@ layout: default
   <ul class="post-list">
     {%- for event in page.events -%}
       <li>
-        <img src="{{ question.cover | relative_url }}" style="margin: 0; margin-right: 2rem; margin-bottom: 2rem;">
+        <img src="{{ event.cover | relative_url }}" style="margin: 0; margin-right: 2rem; margin-bottom: 2rem;">
         <span>
         <h2>
             {{ event.title | escape }}
         </h2>
           <p>{{ event.calendar | escape }} — {{ event.location | escape }}</p>
+          <p>{{ event.desc | escape }}</p>
         </span>
       </li>
     {%- endfor -%}
