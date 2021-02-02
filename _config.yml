@@ -25,8 +25,8 @@ defaults:
     layout: intro
 description: POLISOCIAL è il programma di impegno e responsabilità sociale presso
   il Politecnico di Milano. www.polisocial.polimi.it
-baseurl: "/safari-njema"
-url: https://densitydesign.github.io
+baseurl: "/"
+url: https://www.safari-njema.polimi.it/
 markdown: kramdown
 kramdown:
   parse_block_html: true

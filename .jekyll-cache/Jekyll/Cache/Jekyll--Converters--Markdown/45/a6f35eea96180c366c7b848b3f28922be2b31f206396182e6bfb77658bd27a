@@ -1,36 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<title>Mission - Safari Njema</title><head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/88c3e70171.js" crossorigin="anonymous"></script>
-  <script src="https://d3js.org/d3.v5.min.js"></script>
-  <script
-  src="https://code.jquery.com/jquery-3.5.1.min.js"
-  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-  crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="/assets/main.css"></head>
-<body><div id="nav">
-  <div class="wrapper">
-    <a href="/"><div id="home">Safari</div></a>
-    <a href="/outputs/"><div>Results</div></a>
-    <a href="/events/"><div>Events</div></a>
-    <a href="/mission/"><div>Mission</div></a>
-    <a href="/team/"><div>Team</div></a>
-    <a href="/data/"><div>Datasets</div></a>
-    <a href="/materials/"><div>Materials</div></a>
-  </div>
-</div>
-<main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <img src="/assets/images/mission.jpg" style="margin-bottom: 1rem" class="hero--mission">
-<p><i>Photography by <a href="https://www.flickr.com/people/95731954@N02" target="_blank">A Verdade</a>, distributed under a <a href="http://creativecommons.org/licenses/by/2.0/" target="_blank">CC-BY 2.0 license</a></i>.</p>
-<div id="methodology" class="home">
-  <div class="page-heading"><h1>Mission</h1><div id="table--of--content"></div>
-  </div>
-  <div class="methodology--content"><p>Safari Njema aims at supporting a stream of reflection on the approach to innovative policy design in the field of collective mobility in rapidly growing and changing African cities. The mission for the innovation that the project proposes is based on the delivering of new knowledge about both demand and offer of the informal mobility sector. Making use of still underexploited resource as mobile phone data and on statistical modelling, it provides strategic hints for restructuring the current mobility offer and providing safer, reliable, economically sustainable solutions to both people demand and business models in a fully replicable and scalable perspective.</p>
+I"O<p>Safari Njema aims at supporting a stream of reflection on the approach to innovative policy design in the field of collective mobility in rapidly growing and changing African cities. The mission for the innovation that the project proposes is based on the delivering of new knowledge about both demand and offer of the informal mobility sector. Making use of still underexploited resource as mobile phone data and on statistical modelling, it provides strategic hints for restructuring the current mobility offer and providing safer, reliable, economically sustainable solutions to both people demand and business models in a fully replicable and scalable perspective.</p>
 
 <h2 id="research-objectives">Research objectives</h2>
 <p>SAFARI project aims at redesigning the current system of informal mobility providing data and information which could feed a more efficient organisation to it, specifically achieving the following objectives:</p>
@@ -54,32 +22,4 @@ In Maputo, Safari Njema supports the Agencia Metropolitana de Transporte (AMT) t
 <p>In Sub-Saharan Africa, ‘informal’ mobility is a resource -rather than a constraint- for the reduction of transport poverty. It offers opportunities for interaction and economic survival, shaping the patterns of circulation of people, resources and information within the urban space. The vehicles themselves, as well as the transit spaces from which they operate do not simply express social and economic relations, but rather shape and produce society.</p>
 
 <p>There is an urgent need for critical, strategic and advanced analytics in policy design, possibly able to address problems, where solutions adopted elsewhere have failed in the field of mobility policies. This is a particularly challenging issue in countries like Mozambique, characterized by limited resources to develop a productive data market and by the necessity to accelerate decision making processes in order to develop place-based solutions. The project, escaping traditional models of analysis and planning, highlights the potential of experimental initiatives based on ordinary daily practices, aiming at making them a vehicle to support public transport and enhance people mobility.</p>
-</div>
-</div>
-
-      </div>
-    </main><footer class="site-footer h-card">
-  <data class="u-url" href="/"></data>
-
-  <div class="wrapper">
-    <div class="footer-col-wrapper">
-
-      <div class="footer-col footer-col-1">
-        <img src="/assets/images/logos/polimi.svg" height="50">
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <h3>Polisocial Award 2018</h3>
-        <p>POLISOCIAL è il programma di impegno e responsabilità sociale presso il Politecnico di Milano. www.polisocial.polimi.it</p>
-      </div>
-
-    </div>
-
-  </div>
-
-</footer>
-
-<script src="/assets/js/toc.js"></script>
-</body>
-
-</html>
+:ET

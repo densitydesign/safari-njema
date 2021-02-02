@@ -1,7 +1,7 @@
 ---
 title: 'Mapping and representing informal transport: state of the art'
 permalink: "/mapping-informal-transit/"
-cover: "/assets/images/question05/cover.jpg"
+cover: "/assets/images/question06/cover.jpg"
 number: 6
 layout: output
 type: post
