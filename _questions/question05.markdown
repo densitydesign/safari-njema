@@ -9,13 +9,15 @@ type: visualization
 sources:
 - name: Table 1. Literature review
   link: "../assets/images/question05/appendix-1.pdf"
-- name: Table 2. Association between mobility problem, performance dimension, performance indicator category and performance indicator.
+- name: Table 2. Association between mobility problem, performance dimension, performance
+    indicator category and performance indicator.
   link: "../assets/images/question05/appendix-2.pdf"
 - name: Table 3. Performance indicators
   link: "../assets/images/question05/appendix-3.pdf"
 - name: Table 4. Problems in Maputo
   link: "../assets/images/question05/appendix-4.pdf"
-- name: "Table 5. Stakeholder framework: association of stakeholder to performance dimensions and indicators"
+- name: 'Table 5. Stakeholder framework: association of stakeholder to performance
+    dimensions and indicators'
   link: "../assets/images/question05/appendix-5.pdf"
 ---
 
