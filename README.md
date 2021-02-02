@@ -1,7 +1,7 @@
 # Safari Njema - Polisocial Award 2018
 ## Website available at: https://www.safari-njema.polimi.it/
 
-To create a new research insight on the main page, add a new file called `question0X.markdown` in the `_question` folder, where X is the number consequential to the other research outputs.
+To create a new research insight on the main page, add a new file called `question0X.markdown` in the `/_questions/` folder, where X is the number consequential to the other research outputs.
 
 In the `/assets/images/` you can create a folder called `question0X` to store all images that you want to publish in the research output.
 
