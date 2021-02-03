@@ -236,7 +236,7 @@ table td { border: 1px solid white; }
 
 .post-list { margin-left: 0; list-style: none; }
 
-.post-list img { max-width: 200; height: auto; }
+.post-list img { max-width: 200; }
 
 .post-list > li { margin-bottom: 30px; }
 

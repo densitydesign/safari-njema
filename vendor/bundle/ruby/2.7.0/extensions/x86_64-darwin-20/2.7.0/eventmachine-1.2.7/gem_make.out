@@ -1,0 +1,16 @@
+current directory: /Users/andrea/Documents/GitHub/safari-njema/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/Users/andrea/.rvm/rubies/ruby-2.7.0/bin/ruby -I /Users/andrea/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0 -r ./siteconf20210203-42889-htrnev.rb extconf.rb
+creating Makefile
+
+current directory: /Users/andrea/Documents/GitHub/safari-njema/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" clean
+
+current directory: /Users/andrea/Documents/GitHub/safari-njema/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR="
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+
+current directory: /Users/andrea/Documents/GitHub/safari-njema/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 fastfilereaderext.bundle ./.gem.20210203-42889-1fus2i5
