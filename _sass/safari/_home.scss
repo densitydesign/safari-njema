@@ -68,6 +68,19 @@
       top: $spacing-unit * 3;
       max-height: calc(100vh - ($spacing-unit * 3));
       overflow: scroll;
+
+      li {
+        padding: $spacing-unit / 3;
+      }
+    }
+  }
+
+  .post-list {
+    li {
+      padding: $spacing-unit;
+    }
+    li > * {
+      width: 100%;
     }
   }
 }

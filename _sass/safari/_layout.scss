@@ -478,11 +478,11 @@
     @include relative-font-size(1);
   }
   .event {
-    border-left: 5px solid #AEC5EB;
+    border-left: 5px solid #AABA9E;
   }
   .tag-event {
     border: none;
-    color: #AEC5EB;
+    color: #AABA9E;
     text-transform: capitalize;
   }
 
@@ -558,10 +558,6 @@
       li {
         font-size: 0.9rem;
         padding: $spacing-unit / 3;
-      }
-
-      .event {
-        border-left: 5px solid red !important;
       }
     }
 

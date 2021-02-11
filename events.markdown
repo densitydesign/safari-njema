@@ -32,6 +32,7 @@ events:
     for data gathering and mapping.
 - title: International workshop "Big data and Policy Design – Addressing new societal
     challenges"
+  type: event
   cover: assets/images/events/event2.JPG
   calendar: 27/01/2020 → 28/01/2020
   location: Milan
@@ -42,6 +43,7 @@ events:
     and exchanging ideas regarding the possible ways forward.
 - title: Signature of the Agreement of Cooperation with the Metropolitan Agency of
     Maputo
+  type: event
   cover: assets/images/events/event3.jpg
   calendar: 28/01/2020 → 28/01/2020
   location: Milan
@@ -53,6 +55,7 @@ events:
     of routes, spaces and payment options (www.amt.gov.mz)
 - title: Presentation at the Sustainable Mobility week 2020
   cover: assets/images/events/event4.jpg
+  type: event
   calendar: 26/10/2020 → 31/10/2020
   location: Maputo
   desc: The project briefly presented the linkage between planning challenges and
