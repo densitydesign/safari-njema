@@ -1,0 +1,12 @@
+- name: Vodacom Mozambique
+  logo: /assets/images/logos/vodacom.png
+  link: https://www.vodacom.co.za/
+- name: T-SUM
+  logo: /assets/images/logos/tsum.png
+  link: https://www.t-sum.org/
+- name: UN-Habitat
+  logo: /assets/images/logos/unhabitat.png
+  link: https://unhabitat.org/
+- name: Programa de Desenvolvimento Espacial
+  logo: /assets/images/logos/pde.png
+  link: https://www.pde.gov.mz/

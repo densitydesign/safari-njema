@@ -33,5 +33,12 @@ layout: default
         <a href="{{ partner.link | absolute_url }}"><img src="{{ partner.logo | relative_url }}" alt="{{ partner.name }}"></a>
       </div>
     {%- endfor -%}
+  <h2>Related initiatives</h2>
+  <div class="safari--partners">
+    {%- for partner in site.data.network -%}
+      <div class="safari--logos">
+        <a href="{{ partner.link | absolute_url }}"><img src="{{ partner.logo | relative_url }}" alt="{{ partner.name }}"></a>
+      </div>
+    {%- endfor -%}
   </div>
 </div>
