@@ -22,7 +22,6 @@ layout: default
 
   <div id="index">
     <ul class="post-list">
-<<<<<<< HEAD
       {%- for news in page.events -%}
         <li class="{{ news.type | escape }}">
           <span>
@@ -36,17 +35,11 @@ layout: default
               <p>{{ news.calendar | escape }}</p>
           {%- endif -%}
             <p>{{ news.desc | escape }}</p>
-=======
-      {%- for event in page.events -%}
-        <li>
-          <img src="{{ event.cover | relative_url }}" style="margin: 0; margin-right: 2rem; margin-bottom: 2rem;">
-          <span>
           <h3 id="{{ event.title | escape }}">
               {{ event.title | escape }}
           </h3>
             <p>{{ event.calendar | escape }} — {{ event.location | escape }}</p>
             <p>{{ event.desc | escape }}</p>
->>>>>>> parent of a7f579f (push)
           </span>
         </li>
       {%- endfor -%}

@@ -242,7 +242,6 @@ table td { border: 1px solid white; }
 
 .post-list p { color: #536565; font-size: 15px; }
 
-<<<<<<< HEAD
 .post-list .event { border-left: 5px solid #AEC5EB; }
 
 .post-list .tag-event { border: none; color: #AEC5EB; text-transform: capitalize; }
@@ -255,8 +254,6 @@ table td { border: 1px solid white; }
 
 .post-list .tag-article { border: none; color: #417B5A; text-transform: capitalize; }
 
-=======
->>>>>>> parent of a7f579f (push)
 .post-meta { font-size: 15px; color: #F4F6F6; }
 
 /** Posts */
@@ -462,6 +459,8 @@ table td { border: 1px solid white; }
 #safari--cover .safari--description blockquote { font-size: 19.5px; }
 
 #safari--partners { margin-bottom: 60px; }
+
+#news aside .post-list { position: sticky; top: 90px; max-height: calc(100vh - ($spacing-unit * 3)); overflow: scroll; }
 
 .home blockquote { font-style: normal; }
 
