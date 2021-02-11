@@ -4,7 +4,7 @@ permalink: "/news/"
 layout: events
 events:
 - title: Project presentation at the Sustainable Mobility week 2019
-  cover:
+  cover: 
   calendar: 16/09/2019 → 20/09/2019
   location: Maputo
   desc: The sustainable mobility week of 2019 in Maputo has been the occasion to officially
@@ -43,7 +43,7 @@ events:
     institutional commitment and coordination in the forthcoming actions
 - title: Interdisciplinary teaching module "Exploring and Enhancing people mobility
     through big data"
-  cover:
+  cover: 
   calendar: 30/11/2020 → 01/12/2020
   location: Milan and Maputo
   desc: In collaboration with the Espaço de Inovação of the University Eduardo Mondlane
