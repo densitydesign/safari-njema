@@ -28,14 +28,6 @@ crossorigin="anonymous"></script>
 					<i class="fas fa-cloud-download-alt"></i>
 				</a>
 			</p>
-				<ul style="list-style: none; margin-left: 0;">
-				{% for output in source.used %}
-					<li style="margin-bottom: 1rem; padding-left: 0;">In <a href="{{ output.link | relative_url }}" target="blank">
-						{{ output.title }}
-					</a></li>
-
-				{%- endfor -%}
-				</ul>
 		</li>
 		{%- endfor -%}
 	</ul>

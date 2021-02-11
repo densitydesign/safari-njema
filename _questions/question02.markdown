@@ -5,11 +5,6 @@ cover: "/assets/images/question02/cover.jpg"
 number: 2
 layout: output
 type: post
-expertise:
-- Data analysis
-- Data retrieval
-- GIS modelling
-- Urban analysis
 sources:
 - name: Health facilities
   link: https://www.mozgis.gov.mz/portal/home/item.html?id=24b14545ee6d4e758066e509f546ab1d

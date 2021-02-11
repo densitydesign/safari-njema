@@ -10,19 +10,30 @@ layout: default
   <div class="methodology--content">{{ content }}</div>
 </div>
 
-<div id="index">
-  <ul class="post-list">
-    {%- for event in page.events -%}
-      <li>
-        <img src="{{ event.cover | relative_url }}" style="margin: 0; margin-right: 2rem; margin-bottom: 2rem;">
-        <span>
-        <h2>
-            {{ event.title | escape }}
-        </h2>
-          <p>{{ event.calendar | escape }} — {{ event.location | escape }}</p>
-          <p>{{ event.desc | escape }}</p>
-        </span>
-      </li>
-    {%- endfor -%}
-  </ul>
+<div class="post-content e-content">
+  <aside class="post-meta">
+    <h4>All news</h4>
+    <ul class="post-list">
+      {%- for event in page.events -%}
+        <li class="{{ event.type | escape }}">{{ event.title | escape }}</li>
+      {%- endfor -%}
+    </ul>
+  </aside>
+
+  <div id="index">
+    <ul class="post-list">
+      {%- for event in page.events -%}
+        <li>
+          <img src="{{ event.cover | relative_url }}" style="margin: 0; margin-right: 2rem; margin-bottom: 2rem;">
+          <span>
+          <h3 id="{{ event.title | escape }}">
+              {{ event.title | escape }}
+          </h3>
+            <p>{{ event.calendar | escape }} — {{ event.location | escape }}</p>
+            <p>{{ event.desc | escape }}</p>
+          </span>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </div>
 </div>

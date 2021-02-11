@@ -9,17 +9,44 @@
 - name: Health facilities
   link: https://www.mozgis.gov.mz/portal/home/item.html?id=24b14545ee6d4e758066e509f546ab1d
   description: Data are provided by the official GIS portal of the Mozambican Ministry of Transport.
+  used:
+    - title: Accessibility, equity and social exclusion
+      link: /accessibility/
 - name: High Resolution Settlement Layer (HRSL)
   link: https://google.com
   description: Identify buildings distribution at a resolution of 1 arc-second (approximately 30 meters). This data is crucial for Maputo, where the distribution of the population has a very low detail.
+  used:
+    - title: Accessibility, equity and social exclusion
+      link: /accessibility/
+    - title: 'Organizing a Map-athon: first-hand experience of the transportation system
+      in Maputo'
+      link: /mapathon/
 - name: OSM Road Network
   link: https://www.openstreetmap.org
+  used:
+    - title: Accessibility, equity and social exclusion
+      link: /accessibility/
+    - title: 'Organizing a Map-athon: first-hand experience of the transportation system
+      in Maputo'
+      link: /mapathon/
 - name: Financial services (POS, ATM, Banks, Money exchange)
   link: https://www.mozgis.gov.mz/portal/home/item.html?id=93c32bb32cad4e9b84b0123695cdc376
+  used:
+    - title: Accessibility, equity and social exclusion
+      link: /accessibility/
 - name: Education system
   link: https://www.google.com/maps/
+  used:
+    - title: Accessibility, equity and social exclusion
+      link: /accessibility/
 - name: Google Earth Imagery
   link: https://www.google.it/intl/it/earth/index.html
+  used:
+    - title: Accessibility, equity and social exclusion
+      link: /accessibility/
+    - title: 'Organizing a Map-a-thon: first-hand experience of the transportation system
+      in Maputo'
+      link: /mapathon/
 - name: Performance Measurement System for Formal Mobility and Paratransit in Sub-Saharan Africa
   link: "../assets/images/question05/appendix-1.pdf"
   description: "Table 1. Literature review"

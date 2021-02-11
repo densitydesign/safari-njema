@@ -24,8 +24,7 @@ defaults:
   values:
     layout: intro
 description: POLISOCIAL è il programma di impegno e responsabilità sociale presso
-  il Politecnico di Milano. www.polisocial.polimi.it
-baseurl: "/"
+  il Politecnico di Milano.
 url: https://www.safari-njema.polimi.it/
 markdown: kramdown
 kramdown:

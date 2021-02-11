@@ -359,9 +359,6 @@
     .data-list > li {
       display: flex;
       padding: $spacing-unit / 2 0;
-      background-position: center;
-      background-size: 50%;
-      background-repeat: no-repeat;
       margin-bottom: 0;
       border-bottom: 1px solid $grey-color-dark;
       @include media-query($on-palm) {
@@ -372,7 +369,7 @@
     }
 
     .data-list > li > * {
-      width: 30%;
+      width: calc(50% - 15px);
       margin-bottom: 0;
       margin-right: $spacing-unit;
       @include media-query($on-palm) {
@@ -530,6 +527,17 @@
     border-right: 1px solid $grey-color-dark;
     color: $grey-color-darker;
 
+    .post-list {
+      li {
+        font-size: 0.9rem;
+        padding: $spacing-unit / 3;
+      }
+
+      .event {
+        border-left: 5px solid red !important;
+      }
+    }
+
     @include media-query($on-laptop) {
       grid-column: 1 / 7;
       grid-row: 1 / 1;
@@ -549,6 +557,16 @@
     p {
       font-family: $title-font-family;
       @include relative-font-size(1);
+    }
+  }
+
+  #index {
+    grid-column: 3 / 7;
+
+    .post-list {
+      li:first-child {
+        border-top: none;
+      }
     }
   }
 

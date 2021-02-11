@@ -4,6 +4,7 @@ permalink: "/news/"
 layout: events
 events:
 - title: Project presentation at the Sustainable Mobility week 2019
+  type: event
   cover:
   calendar: 16/09/2019 → 20/09/2019
   location: Maputo
