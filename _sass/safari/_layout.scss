@@ -296,6 +296,7 @@
 
   img {
     width: auto;
+    height: auto;
     max-height: 90px;
     max-width: 200px;
   }
@@ -481,11 +482,28 @@
   .event {
     border-left: 5px solid #AEC5EB;
   }
+  .tag-event {
+    border: none;
+    color: #AEC5EB;
+    text-transform: capitalize;
+  }
+
   .publication {
     border-left: 5px solid #FFC857;
   }
+  .tag-publication {
+    border: none;
+    color: #FFC857;
+    text-transform: capitalize;
+  }
+
   .article {
     border-left: 5px solid #417B5A;
+  }
+  .tag-article {
+    border: none;
+    color: #417B5A;
+    text-transform: capitalize;
   }
 }
 
@@ -649,6 +667,7 @@
       position: relative;
       left: -$spacing-unit;
       width: calc(100% + 60px);
+      height: auto;
       margin: $spacing-unit * 2 0;
       outline: 1px solid $grey-color-dark;
 
@@ -669,6 +688,7 @@
     img + em {
       position: relative;
       width: 100%;
+      height: auto;
       color: $grey-color-darker;
       top: -$spacing-unit;
     }

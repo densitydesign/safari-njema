@@ -23,9 +23,9 @@ layout: default
   <div id="index">
     <ul class="post-list">
       {%- for news in page.events -%}
-        <li class="{{ news.type | escape}}">
+        <li class="{{ news.type | escape }}">
           <span>
-            <h5 class="{{ news.type | escape }}">{{ news.type | escape }}</h5>
+            <h5 class="tag-{{ news.type | escape }}">{{ news.type | escape }}</h5>
             <h3 id="{{ news.title | escape }}">
                 {{ news.title | escape }}
             </h3>

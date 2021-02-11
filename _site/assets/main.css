@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { mar
 main { display: block; }
 
 /** Images */
-img { display: block; width: 100%; vertical-align: middle; }
+img { display: block; vertical-align: middle; }
 
 /** Figures */
 figure > img { display: block; }
@@ -177,7 +177,7 @@ table td { border: 1px solid white; }
 
 .safari--partners div p { margin: 0; }
 
-.safari--partners img { width: auto; max-height: 90px; max-width: 200px; }
+.safari--partners img { width: auto; height: auto; max-height: 90px; max-width: 200px; }
 
 #datasets { border-top: 1px solid #d8dfdf; display: grid; grid-template-columns: repeat(6, 16.7%); }
 
@@ -244,9 +244,15 @@ table td { border: 1px solid white; }
 
 .post-list .event { border-left: 5px solid #AEC5EB; }
 
+.post-list .tag-event { border: none; color: #AEC5EB; text-transform: capitalize; }
+
 .post-list .publication { border-left: 5px solid #FFC857; }
 
+.post-list .tag-publication { border: none; color: #FFC857; text-transform: capitalize; }
+
 .post-list .article { border-left: 5px solid #417B5A; }
+
+.post-list .tag-article { border: none; color: #417B5A; text-transform: capitalize; }
 
 .post-meta { font-size: 15px; color: #F4F6F6; }
 
@@ -299,7 +305,7 @@ table td { border: 1px solid white; }
 
 .post-content .main-post-content p { text-indent: 30px; }
 
-.post-content .main-post-content img { position: relative; left: -30px; width: calc(100% + 60px); margin: 60px 0; outline: 1px solid #d8dfdf; }
+.post-content .main-post-content img { position: relative; left: -30px; width: calc(100% + 60px); height: auto; margin: 60px 0; outline: 1px solid #d8dfdf; }
 
 @media screen and (max-width: 768px) { .post-content .main-post-content img { width: calc(100% + 49px); } }
 
@@ -307,7 +313,7 @@ table td { border: 1px solid white; }
 
 .post-content .main-post-content blockquote p em { color: #ff0628; }
 
-.post-content .main-post-content img + em { position: relative; width: 100%; color: #536565; top: -30px; }
+.post-content .main-post-content img + em { position: relative; width: 100%; height: auto; color: #536565; top: -30px; }
 
 .post-content .main-post-content .footnotes { grid-column: 1 / 4; margin-bottom: 0; }
 
