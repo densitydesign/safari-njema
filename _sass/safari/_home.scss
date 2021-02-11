@@ -61,6 +61,17 @@
   margin-bottom: $spacing-unit * 2;
 }
 
+#news {
+  aside {
+    .post-list {
+      position: sticky;
+      top: $spacing-unit * 3;
+      max-height: calc(100vh - ($spacing-unit * 3));
+      overflow: scroll;
+    }
+  }
+}
+
 .home blockquote {
   font-style: normal;
 
@@ -119,10 +130,7 @@
 
 .post-list > li {
   display: flex;
-  padding: $spacing-unit / 1.5 0;
-  background-position: center;
-  background-size: 50%;
-  background-repeat: no-repeat;
+  padding: $spacing-unit / 2;
   margin-bottom: 0;
   border-bottom: 1px solid $grey-color-dark;
   @include media-query($on-palm) {
@@ -133,9 +141,7 @@
 }
 
 .post-list > li > * {
-  width: 50%;
   margin-bottom: 0;
-  margin-right: $spacing-unit;
   @include media-query($on-palm) {
    width: 100%;
   }

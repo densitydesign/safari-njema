@@ -452,7 +452,7 @@
  * Page content
  */
 .page-content {
-  padding: $spacing-unit 0;
+  padding: 0;
   flex: 1;
 }
 
@@ -466,6 +466,7 @@
 
   img {
     max-width: 200;
+    height: auto;
   }
 
   > li {
@@ -475,6 +476,16 @@
   p {
     color: $grey-color-darker;
     @include relative-font-size(1);
+  }
+
+  .event {
+    border-left: 5px solid #AEC5EB;
+  }
+  .publication {
+    border-left: 5px solid #FFC857;
+  }
+  .article {
+    border-left: 5px solid #417B5A;
   }
 }
 
@@ -531,10 +542,6 @@
       li {
         font-size: 0.9rem;
         padding: $spacing-unit / 3;
-      }
-
-      .event {
-        border-left: 5px solid red !important;
       }
     }
 
