@@ -3,6 +3,7 @@ title: News
 permalink: "/news/"
 layout: events
 events:
+<<<<<<< HEAD
 - title: 'Viewpoint. Tackling the invisible during COVID-19 urban prevention: insights
     on housing and mobility in Maputo, Mozambique'
   calendar: 2021
@@ -19,6 +20,8 @@ events:
     the transport sector. The interview also focused on the need to create a shared
     database and institutional coordination to manage information and consequently
     to elaborate more holistic urban and mobility policies.
+=======
+>>>>>>> parent of a7f579f (push)
 - title: Project presentation at the Sustainable Mobility week 2019
   type: event
   cover: 
@@ -32,7 +35,6 @@ events:
     for data gathering and mapping.
 - title: International workshop "Big data and Policy Design – Addressing new societal
     challenges"
-  type: event
   cover: assets/images/events/event2.JPG
   calendar: 27/01/2020 → 28/01/2020
   location: Milan
@@ -43,7 +45,6 @@ events:
     and exchanging ideas regarding the possible ways forward.
 - title: Signature of the Agreement of Cooperation with the Metropolitan Agency of
     Maputo
-  type: event
   cover: assets/images/events/event3.jpg
   calendar: 28/01/2020 → 28/01/2020
   location: Milan
@@ -54,7 +55,6 @@ events:
     policy and for the innovation of the whole transport sector, including reformulation
     of routes, spaces and payment options (www.amt.gov.mz)
 - title: Presentation at the Sustainable Mobility week 2020
-  type: event
   cover: assets/images/events/event4.jpg
   calendar: 26/10/2020 → 31/10/2020
   location: Maputo
@@ -63,8 +63,12 @@ events:
     institutional commitment and coordination in the forthcoming actions
 - title: Interdisciplinary teaching module "Exploring and Enhancing people mobility
     through big data"
+<<<<<<< HEAD
   type: event
   cover: 
+=======
+  cover:
+>>>>>>> parent of a7f579f (push)
   calendar: 30/11/2020 → 01/12/2020
   location: Milan and Maputo
   desc: In collaboration with the Espaço de Inovação of the University Eduardo Mondlane

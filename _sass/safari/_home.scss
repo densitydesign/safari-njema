@@ -61,6 +61,7 @@
   margin-bottom: $spacing-unit * 2;
 }
 
+<<<<<<< HEAD
 #news {
     aside {
     .post-list {
@@ -72,6 +73,8 @@
   }
 }
 
+=======
+>>>>>>> parent of a7f579f (push)
 .home blockquote {
   font-style: normal;
 
@@ -130,7 +133,10 @@
 
 .post-list > li {
   display: flex;
-  padding: $spacing-unit / 2;
+  padding: $spacing-unit / 1.5 0;
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
   margin-bottom: 0;
   border-bottom: 1px solid $grey-color-dark;
   @include media-query($on-palm) {
@@ -141,7 +147,9 @@
 }
 
 .post-list > li > * {
+  width: 50%;
   margin-bottom: 0;
+  margin-right: $spacing-unit;
   @include media-query($on-palm) {
    width: 100%;
   }

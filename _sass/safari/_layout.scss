@@ -453,7 +453,7 @@
  * Page content
  */
 .page-content {
-  padding: 0;
+  padding: $spacing-unit 0;
   flex: 1;
 }
 
@@ -467,7 +467,6 @@
 
   img {
     max-width: 200;
-    height: auto;
   }
 
   > li {
@@ -478,6 +477,7 @@
     color: $grey-color-darker;
     @include relative-font-size(1);
   }
+<<<<<<< HEAD
 
   .event {
     border-left: 5px solid #AEC5EB;
@@ -505,6 +505,8 @@
     color: #417B5A;
     text-transform: capitalize;
   }
+=======
+>>>>>>> parent of a7f579f (push)
 }
 
 .post-meta {
@@ -560,6 +562,10 @@
       li {
         font-size: 0.9rem;
         padding: $spacing-unit / 3;
+      }
+
+      .event {
+        border-left: 5px solid red !important;
       }
     }
 

@@ -10,18 +10,19 @@ layout: default
   <div class="methodology--content">{{ content }}</div>
 </div>
 
-<div id="news" class="post-content e-content">
+<div class="post-content e-content">
   <aside class="post-meta">
-    <h4>Timeline</h4>
+    <h4>All news</h4>
     <ul class="post-list">
-      {%- for news in page.events -%}
-        <li class="{{ news.type | escape }}" style="text-transform: capitalize">{{ news.title | truncatewords:4 | escape }}</li>
+      {%- for event in page.events -%}
+        <li class="{{ event.type | escape }}">{{ event.title | escape }}</li>
       {%- endfor -%}
     </ul>
   </aside>
 
   <div id="index">
     <ul class="post-list">
+<<<<<<< HEAD
       {%- for news in page.events -%}
         <li class="{{ news.type | escape }}">
           <span>
@@ -35,6 +36,17 @@ layout: default
               <p>{{ news.calendar | escape }}</p>
           {%- endif -%}
             <p>{{ news.desc | escape }}</p>
+=======
+      {%- for event in page.events -%}
+        <li>
+          <img src="{{ event.cover | relative_url }}" style="margin: 0; margin-right: 2rem; margin-bottom: 2rem;">
+          <span>
+          <h3 id="{{ event.title | escape }}">
+              {{ event.title | escape }}
+          </h3>
+            <p>{{ event.calendar | escape }} — {{ event.location | escape }}</p>
+            <p>{{ event.desc | escape }}</p>
+>>>>>>> parent of a7f579f (push)
           </span>
         </li>
       {%- endfor -%}
