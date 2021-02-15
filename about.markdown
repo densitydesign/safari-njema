@@ -11,8 +11,8 @@ SAFARI project aims at redesigning the current system of paratransit mobility pr
 - Testing the potentials of new databases constructed upon big data collection to support paratransit system;
 - Developing a methodology to ground a more structured offer and a more efficient and safer transport service model;
 - Proposing a model of analysis at the intersection between social innovation, organisational design, technical innovation, that can be applied and replicate by local institutions and decision-makers;
-- Creating mathematic and statistic models to be applied to urban studies and urban policies for developing sound data analysis models and algorithms;
-- Introducing computer sciences and engineering knowledges for a reliable collection and storage of data in contexts where planning decisions need to be quick and where there is a difficulty to collect data and information.
+- Creating mathematical and statistical models to be applied to urban studies and urban policies for developing sound data analysis models and algorithms;
+- Introducing computer sciences and engineering knowledges for a reliable collection and storage of data in contexts where planning decisions need to be quick and where there is difficult to collect data and information.
 - Using communication design to make the data analysis output manageable and thus useful for the relevant stakeholders.
 
 ![image-title-here]({{ 'assets/images/home/FA87206E-86AF-457F-ACBB-E9D116DEB889.JPG' | relative_url }})
