@@ -4,7 +4,7 @@ permalink: "/mission/"
 layout: mission
 ---
 
-Safari Njema aims at supporting a stream of reflection on the approach to innovative policy design in the field of collective mobility in rapidly growing and changing African cities. The mission for the innovation that the project proposes is based on the delivering of new knowledge about both demand and offer of the paratransit mobility sector. Making use of still underexploited resource as mobile phone data and on statistical modelling, it provides strategic hints for restructuring the current mobility offer and providing safer, reliable, economically sustainable solutions to both people demand and business models in a fully replicable and scalable perspective.
+Safari Njema aims at supporting a stream of reflection on the approach to innovative policy design in the field of collective mobility in rapidly growing and changing African cities. The mission for the innovation that the project proposes is based on the delivering of new knowledge about both demand and offer of the paratransit mobility sector. Making use of still underexploited resource as mobile phone data and on statistical modelling, it provides strategic hints for restructuring the current mobility offer and providing safe, reliable, economically sustainable solutions to both people demand and business models in a fully replicable and scalable perspective.
 
 ## Research objectives
 SAFARI project aims at redesigning the current system of paratransit mobility providing data and information which could feed a more efficient organisation to it, specifically achieving the following objectives:
