@@ -1,7 +1,6 @@
 ---
 title: News
 permalink: "/news/"
-layout: events
 events:
 - title: 'Viewpoint. Tackling the invisible during COVID-19 urban prevention: insights
     on housing and mobility in Maputo, Mozambique'
@@ -72,6 +71,7 @@ events:
     offer for students of several faculties as well as for practitioners and civil
     servants/officers of different institutions involved in urban and mobility decision
     making processes
+layout: events
 ---
 
-*SAFARI* organized a series of events that connected the various actors involved in the para-transit mobility phenomenon in the Maputo municipality.
+The Safari Njema team organized and participated to a series of events to actively collaborate with various actors involved in the paratransit mobility phenomenon in Maputo municipality.
