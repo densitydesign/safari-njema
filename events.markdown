@@ -21,7 +21,7 @@ events:
     to elaborate more holistic urban and mobility policies.
 - title: Project presentation at the Sustainable Mobility week 2019
   type: event
-  cover: 
+  cover:
   calendar: 16/09/2019 → 20/09/2019
   location: Maputo
   desc: The sustainable mobility week of 2019 in Maputo has been the occasion to officially
@@ -64,7 +64,7 @@ events:
 - title: Interdisciplinary teaching module "Exploring and Enhancing people mobility
     through big data"
   type: event
-  cover: 
+  cover:
   calendar: 30/11/2020 → 01/12/2020
   location: Milan and Maputo
   desc: In collaboration with the Espaço de Inovação of the University Eduardo Mondlane
