@@ -1,16 +1,16 @@
 ---
-title: 'Organizing a Map-a-thon: first-hand experience of the transportation system
+title: 'Organizing a Mapathon: first-hand experience of the transportation system
   in Maputo'
 permalink: "/mapathon/"
 cover: "/assets/images/question01/cover.jpg"
 number: 1
-layout: output
 type: visualization
 sources:
 - name: Github Repository
   link: https://github.com/densitydesign/map-uto
 - name: Web-app
   link: https://densitydesign.github.io/map-uto/
+layout: output
 ---
 
 As a first experiment, a small map-athon was organized in Maputo within the research team to have a first hand experience of the mobility systems in the city. For the Mobility Week organized in September, members of the research teams explored the city with formal and para-transit transportations systems through the whole week, gathering data both from the platforms provided by the research partners, and from a simple web app developed for this purpose.
