@@ -3,21 +3,14 @@ title: 'Mapping and representing informal transport: state of the art'
 permalink: "/mapping-informal-transit/"
 cover: "/assets/images/question06/cover.jpg"
 number: 6
-layout: output
 type: post
 sources:
 - name: Original post
   link: https://densitydesign.org/2019/05/mapping-and-representing-informal-transport-the-state-of-the-art/
+layout: output
 ---
 
-This research is a preliminary step for an upcoming project. Its focus is to describe the state of the art of Informal Transport Mapping in Sub-Saharan Africa.
-
-Informal Transports are defined, by literature, as:
-> “Paratransit-type services provided without official sanction.” (R. Cervero, A. Golub, Informal Transport: A global perspective)
-
-In most of the sub-Saharan African cities, where this kind of service exists, there isn’t an official mapping of the buses lines and stops. However, there are few projects where communities of users or researchers tried to map Informal Transports within a city.
-
-To find these examples, we started using “Informal Transport Mapping” as query for a Google search and then focusing only on visual representations, such as transit maps. One of the results is the following.
+In most of the Sub-Saharan African cities, where paratransit services are highly diffused, there isn’t an official mapping of the transport lines and stops. However, there are few projects where communities of users or researchers tried to map paratransit transports within a city.
 
 ![Informal transit](https://densitydesign.org/wp-content/uploads/2019/05/african-informal-transports.jpeg)
 *F. Oyatogun’s tweet*
