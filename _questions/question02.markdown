@@ -3,7 +3,6 @@ title: Accessibility, equity and social exclusion
 permalink: "/accessibility/"
 cover: "/assets/images/question02/cover.jpg"
 number: 2
-layout: output
 type: post
 sources:
 - name: Health facilities
@@ -26,9 +25,10 @@ sources:
   link: https://www.google.com/maps/
 - name: Google Earth Imagery
   link: https://www.google.it/intl/it/earth/index.html
+layout: output
 ---
 
-Despite the significant growth of Mozambique since 1993, in this country more than half of the population still lives below the poverty line. The poverty reduction better performs in cities than in rural areas and in Mozambique the main urban growth happened in Greater Maputo Area. The rapid growth of the capital city involves negative externalities such as new urban poor, gentrification and underserved neighbourhoods.
+Despite the significant growth of the country in the last three decades, more than half of Mozambican population still lives below the poverty line. In Mozambique the main urban growth happened in Greater Maputo Area and the rapid growth of the capital city entails negative externalities such as new urban poor, gentrification and underserved neighborhoods. This section attempts to measure wealth and map poverty in the Greater Maputo Area at neighbor level rather than at district or province level, to give a spatial dimension to poverty and allow driving policies, delivering services and developing new infrastructures.
 
 ## Objectives
 > 1. Mapping poverty rate considering the level of accessibility
