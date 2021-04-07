@@ -47,21 +47,8 @@ Upon exploration of features of the mobility system in Maputo area, we identifie
 ![Stakeholder framework]({{ 'assets/images/question05/stakeholder-net-01.png' | relative_url }})
 [→ Table 4. Problems in Maputo]({{ '/assets/images/question05/appendix-2.pdf' | relative_url }})
 
-### Identification of key performances dimensions, metrics and indicators for performance measurement of formal and paratransit mobility in Maputo
-Combining the analysis of (1) extant studies and projects dealing with formal and paratransit mobility systems, (2) secondary sources on performance measurement systems and indicators adopted in developed and developing countries to measure and control mobility with specific focus on Sub-Saharan Africa (SSA) countries and (3) primary sources collected through an action research methodology in Maputo and thanks to the direct interaction with key actors in the mobility arena in Maputo, SAFARI developed a theoretical framework for mobility systems in SSA countries. In particular, Skype and Whatsapp communication, participation to online and onsite events, one-to-one interviews, field observations in Maputo supported the adaptation of the framework to the specific needs and priorities of key actors to the specific case of Maputo.
+### Identification of key performance dimensions
+Combining the analysis of (1) extant studies and projects dealing with formal and paratransit mobility systems, (2) secondary sources on performance measurement systems and indicators adopted in developed and developing countries to measure and control mobility with specific focus on SSA countries and (3) primary sources collected through an action research methodology in Maputo and thanks to the direct interaction with key actors in the mobility arena in Maputo, Safari developed a theoretical framework for mobility systems in SSA countries. In particular, Skype and Whatsapp communication, participation to online and onsite events, one-to-one interviews, field observations in Maputo supported the adaptation of the framework to the specific needs and priorities of key actors to the specific case of Maputo.
 
 ![Stakeholder framework]({{ 'assets/images/question05/actors-01.png' | relative_url }})
 *Figure 1. Stakeholders framework [→ Table 5. Problems in Maputo]({{ '/assets/images/question05/appendix-5.pdf' | relative_url }})*
-
-## Additional Materials
-1.	Annex 19 main references on paratransit and performance measurement literature
-2.	Annexes 6-11 various materials connected to mobility in SSA countries, Mozambique and Maputo
-3.	Annex 27,35 letters of invitation to Sustainable Mobility Week 2019 in Maputo
-4.	Annex 62-65 details on Sustainable Mobility Week 2019 in Maputo
-5.	Annex 37 map of local actors with corresponding capabilities and resources
-6.	Annex 38 GANTT of projects and initiatives connected to the development of the SUMP for Maputo resulting from final meeting in Maputo in September 2019
-7.	Annex 40 Presentation of SAFARI project with focus on Data Analysis to Semana de Mobilidade Sustentavel
-8.	Annex 42 Presentation of SAFARI project to Semana de Mobilidade Sustentavel
-9.	Annexes 12-18, 43-47 objectives, strategies and challenges presented by local and international actors attending Sustainability Week 2019 in Maputo
-10.	Annex 23 engagement with TSUM project
-11.	Annex 48 One-to-one interviews with local actors
