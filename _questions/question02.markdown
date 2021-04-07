@@ -31,45 +31,44 @@ layout: output
 Despite the significant growth of the country in the last three decades, more than half of Mozambican population still lives below the poverty line. In Mozambique the main urban growth happened in Greater Maputo Area and the rapid growth of the capital city entails negative externalities such as new urban poor, gentrification and underserved neighborhoods. This section attempts to measure wealth and map poverty in the Greater Maputo Area at neighbor level rather than at district or province level, to give a spatial dimension to poverty and allow driving policies, delivering services and developing new infrastructures.
 
 ## Objectives
-> 1. Mapping poverty rate considering the level of accessibility
-2. Methodology to calculate accessibility indicator
-3. Analyse paratransit mobility and formal public transportation. Consider both during planning analysis.
-4. Identify low connected areas and lack of public transport or paratransit mobility.
-5. Build GPS model - data disclosure
-
-The output attempt to measure the wealth and map the poverty in the Greater Maputo Area. Give a spatial dimension to this phenomenon allow to drive policies and perform services and new infrastructures.
-The definition of wealth (or poverty) is generic and there are many variables that contribute to determine its value. From the literature review we identify key factors that influence wealth in Greater Maputo Area:
-- access to drinking water at home
-- access to information and communication technology
-- access to public transport
-- access to CBD (Central Business District)
-- access to health facilities
-- access to education system
-- access to real estate market (affordable houses)
-- having a permanent source of income or savings
-- house construction material
-- adequate sanitation at home
-- source of reliable energy
-- building density
-- infrastructure density
-- presence of formal / Informal business and jobs
-
-Some of the items in the list concern a place-based accessibility. This is another generic term. Recent researches inspect this kind of accessibility and in many cases show a strong correlation between poverty reduction and access to basic services and urban infrastructure. In particular, the analysis of accessibility in low and middle-income countries point out the primary role of public transport in the reduction of urban inequality. Considerable number of people move and commute by public transport in Greater Maputo Area (%) and just a minority is car owner (increasing number).
-“Constrained accessibility can result in higher rates of jobs informality. Reduce informality can be a target for well-designed transport policies.”
-“Difficult access to formal jobs for the lower-income population.”
-The relation between public transport and formal jobs emerge also comparing bus stops and financial services (POS, ATM and banks). Financial services identify presence of formal commercial and economic activities, most of them fall within 250 m from a stop.
-Therefore, measure accessibility for the listed factors and considering public transport, means point out segregation areas, where there is a lack of services and a significant distance from them. These areas are unequal, people who live there have difficulties to access to job opportunities, there is a high rate of unemployment and informal employment and a lower educational level. The literature proves that all these social costs are also related to public transport equity and efficiency.
-Define where these areas are located will help to define policies and focus areas for investments and public interventions. Equity, inclusion, segregation and wealth can be analysed measuring accessibility to the following factors by public transport:
-- accessibility to health system
-- accessibility to education system
-- accessibility to CBD (Central Business District)
-- accessibility to public transport
-- accessibility to water sources
-- presence of financial services
-
-Until now the attempt to map the poverty in Maputo consider census data that are aggregated to the district or province level. These data are not relevant due to their poor detail, therefore the indicator have been calculated at the neighbour level.
+> 1. To map poverty rate considering the level of accessibility
+2. To explain the methodology used to calculate accessibility indicators
+3. To analyze paratransit mobility and formal public transportation in relation to morphological aspects
+4. To identify areas of urban segregation in terms of lack of public transport and/or paratransit mobility
+5. To build GPS model - data disclosure
 
 ## Activities
+### Identification of factors influencing wealth and segregation
+The definition of wealth or poverty is generic and there are many variables that contribute to determine its value. From the literature review, we identify key factors that influence wealth in Greater Maputo Area:
+•access to health facilities
+•access to education facilities
+•access to Central Business District (CBD)
+•access to public transport
+•access to drinking water at home
+•presence of financial services
+•access to information and communication technologies
+•access to real estate markets (affordable houses)
+•sources of income, savings or remittances
+•Presence and kind of formal or informal activities
+•house typology and construction materials
+•Presence and type of sanitation
+•Energy accessibility (electricity)
+•(housing) density
+•infrastructure density
+
+### From place-based accessibility to people-based accessibility
+Recent researches pointed out the primary role of public transport in the reduction of urban inequality, demonstrating with data related to personal income and the country gross product, correlation between poverty reduction and access to basic services and urban infrastructure.
+The relation between public transport and formal jobs emerges also putting in relation bus stops and financial services (POS, ATM and banks). The presence of financial services has a correlation with the presence of formal commercial and economic activities (e.g.: most of them falling within 250 meters from a stop). Segregated areas in terms of financial services are often areas where people face difficulties to access to job opportunities. For example, there is a higher rate of unemployment, informal employment and a lower educational level. The literature proves that  social costs related with urban segregation are related to public transport equity and efficiency. For this reason, to define where these areas are located will help defining policies and focusing on priority areas for investments and public interventions.
+In general, the project highlights how equity, inclusion, segregation and wealth can be analysed measuring accessibility to the following factors by public transport:
+•accessibility to health system
+•accessibility to education system
+•accessibility to CBD (Central Business District)
+•accessibility to public transport
+•accessibility to water sources
+•presence of financial services
+Until now the attempt to map the poverty in Maputo consider census data that are aggregated to the district or province level. These data are not relevant due to their poor detail, therefore the indicator have been calculated at the neighbour level.
+
+
 ### Accessibility to health system
 The access to healthcare facilities is crucial and has a strong impact on people and their wealth. To allow everyone equal access, it is necessary that health facilities are well distributed. The World Bank report on Maputo urban poverty and inclusive growth, estimates that “the number of poor households with no access to health facilities within 2km is three time as high as for non poor households”. The walking distance to a health facility is crucial, especially for poor people that do not own a car. The poor population reaches these facilities on foot, for this reason it is necessary to consider both the walking distance and the level of the sanitary structure that can be reached. To calculate this indicator, we considered the isochrones generated by each health facilities and their level, which is based on the available care services. The indicator is applied to morphological areas which identified a detailed and homogeneous subdivision of the metropolitan area, smaller than existing administrative areas (district or bairros).
 
