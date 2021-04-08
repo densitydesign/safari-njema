@@ -15,7 +15,7 @@ crossorigin="anonymous"></script>
 	<div id="index">
 		<ul class="data-list">
 		{%- for source in site.data.datasets -%}
-
+		{%- if source.description != "Master thesis" -%}
 		<li id="{{ source.link }}">
 			<p>
 				<b>{{ source.name }}</b>
@@ -23,12 +23,39 @@ crossorigin="anonymous"></script>
 			<p>
 				{{ source.description }}
 			</p>
+			{%- if source.link -%}
 			<p class="download">
 				<a class="data-link" href="{{ source.link | relative_url }}" target="_blank">
 					<i class="fas fa-cloud-download-alt"></i>
 				</a>
 			</p>
+			{%- else -%}
+			<p class="download">
+
+			</p>
+			{%- endif -%}
 		</li>
+		{%- endif -%}
 		{%- endfor -%}
 	</ul>
+	<h3>Master Theses</h3>
+	<ul class="data-list">
+	{%- for source in site.data.datasets -%}
+	{%- if source.description == "Master thesis" -%}
+	<li id="{{ source.link }}">
+		<p>
+			<b>{{ source.name }}</b>
+		</p>
+		<p>
+			{{ source.author }}
+		</p>
+		<p class="download">
+			<a class="data-link" href="{{ source.link | relative_url }}" target="_blank">
+				<i class="fas fa-link"></i>
+			</a>
+		</p>
+	</li>
+	{%- endif -%}
+	{%- endfor -%}
+</ul>
 	</div>

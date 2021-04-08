@@ -22,7 +22,7 @@ layout: default
       <div>
         <p><b>{{ student.contact }}</b></p>
         <p>{{ student.department }}</p>
-        <p><i>{{ student.role }}</i></p>
+        <p><a href="{{ student.thesis | absolute_url }}"<i>{{ student.title }}</i></a></p>
       </div>
     {%- endfor -%}
   </div>

@@ -12,14 +12,27 @@ layout: output
 
 In most of the Sub-Saharan African cities, where paratransit services are highly diffused, there isn’t an official mapping of the transport lines and stops. However, there are few projects where communities of users or researchers tried to map paratransit transports within a city.
 
+## Objectives
+This section describes the state of the art of informal transport mapping in Sub-Saharan Africa, presenting some examples of visual maps retrieves from past projects. Other projects can be found here.
+
+## Vocabulary
+
+**GTFS**: General Transit Feed Specification, defines a common format for public transportation schedules and associated geographic information.
+
+**Thematic Map**: a type of map that focuses on a specific theme or subject area. These kinds of maps stress spatial variation of one or a small number of geographic distributions. source
+
+**Topological Map**: a type of diagram that has been simplified so that only vital information remains and unnecessary detail has been removed. These maps lack scale, and distance and direction are subject to change and variation, but the relationship between points is maintained.
+
+## Informal transports in Africa
+Searching for “Informal Transport Mapping” in Google and focusing only on visual representations, such as transit maps, one of the first results is a map showing all the local names of informal transports in African countries.
+
 ![Informal transit](https://densitydesign.org/wp-content/uploads/2019/05/african-informal-transports.jpeg)
 *F. Oyatogun’s tweet*
 
-This map shows all the local names that informal transports have in African countries. We reframed the Google query combining each local name with “mapping.” This led us to grassroots projects, initiated by informal transports users or local communities in need of proper information on this kind of services.
+## Mapping transports in Africa
+We reframed the Google query combining each local name with “mapping.” This led us to grassroots projects, initiated by informal transports users or local communities in need of proper information on this kind of services.
 
-The following are some examples of visual maps found, other projects can be found here.
-
-## Digital Matatus
+### Digital Matatus
 
 ![](https://densitydesign.org/wp-content/uploads/2019/04/nairobi_matatus-768x517.jpg)
 
@@ -37,7 +50,7 @@ The data needed to be cleaned and formatted into GTFS, this led to the creation 
 Digital Matatus map is a topological map which wants to show a schematic diagram of Matatus routes. The routes are grouped in coloured lines according to their destination. Landmarks and significative points of Nairobi are highlighted on the map. The map is combined with a list of all Matatu stations and every Matatu line that stops in a specific station.
 The map is only available for print, but web and app versions are being developed.
 
-## Minibus taxi Routes
+### Minibus taxi Routes
 
 ![](https://densitydesign.org/wp-content/uploads/2019/04/cape-town_minibus-768x509.png)
 
@@ -55,7 +68,7 @@ WhereIsMyTransport designed a printable map with the data collected.
 The WhereIsMyTransport printable map is a topological map which shows a schematic diagram of Minibusses routes and stops combined with formal transports stops. Each route has a number and a colour, but this marker is not used in the actual transport network. It’s not clear if lines with the same colour are related somehow. The map is divided into four tables. Table A shows the most active minibus routes, tables B C D show minibus routes of different areas.
 WhereIsMyTransport API shows formal and informal transports stops on a map provided by Mapbox. All the other data are available as JSON file.
 
-## The Bus Map Project
+### The Bus Map Project
 
 ![](https://densitydesign.org/wp-content/uploads/2019/04/beirut_busmap-768x469.jpg)
 
@@ -71,7 +84,7 @@ To collect the data app like Open GPS, Gaia GPS and Trails were employed, then t
 
 The Bus Map project implemented two kinds of maps. The web-based one is a thematic map of the city of Beirut showing the bus lines: every line has its own colour and number. The bus stops are not visible on this map, the timetables are not available since the busses are not running regularly, landmarks of Beirut are highlighted. For each bus line is available information about such as the fare, the duration and the distance of the whole journey. The printable map is a topological map showing a schematic diagram of the bus lines, bus stops are included as well. Each bus line has its own colour and a number or name. On the map, there are instructions on how to use informal transports.
 
-## The Chapas Project
+### The Chapas Project
 
 ![](https://densitydesign.org/wp-content/uploads/2019/04/maputo_chapas-project-768x543.png)
 
@@ -87,7 +100,7 @@ The Chapas Project was started in 2013 by Joaquín Romero de Tejada with the pur
 
 The Chapas Project map is a topological map showing a schematic diagram of the informal transport infrastructures. The bus lines are grouped by colour according to their starting point or route. Bus stops are highlighted and listed, with coordinates and other information.
 
-## Candongueiros de Luanda
+### Candongueiros de Luanda
 
 ![](https://densitydesign.org/wp-content/uploads/2019/04/luanda_candongueiros-768x543.png)
 
@@ -102,7 +115,7 @@ Candongueiros de Luanda is the outcome of a Development Workshop program in 2011
 
 Candongueiros de Luanda map is a topological map showing a schematic diagram of buses routes. Every bus has its own colour. There isn’t any bus stop or Luanda landmark on the map.
 
-## Dar es Salaam Dala Dalas mapping
+### Dar es Salaam Dala Dalas mapping
 
 ![](https://densitydesign.org/wp-content/uploads/2019/04/dar-es-salaam_dala-dalas-768x517.png)
 
@@ -117,7 +130,7 @@ Mapping Dala Dalas in Dar es Salaam is a collaboration between Dar Ramani Huria 
 
 There are three demo maps on the Ally website. Each map is based on the same Dar es Salaam thematic map and is showing different information. Two of these maps are showing Dala Dalas routes: the routes are all of the same colour, the information given is which are the most travelled streets by buses. One of these maps is static, the other one is animated, displaying Dala Dalas routes in an unclear sequence. The third map shows the bus stops, for each of them is not specified which bus line stops there.
 
-## Transports au Mali
+### Transports au Mali
 
 ![](https://densitydesign.org/wp-content/uploads/2019/04/bamako_transports-au-mali.png)
 
@@ -132,7 +145,7 @@ This mapping initiative was started by the JungleBus founder and the OpenStreetM
 
 The map is a thematic map: Dala Dalas routes and stops are displayed on Bamako city map. The bus lines have different colours and names. It is not clear whether different bus lines have been grouped under the same colour and name according to some variables. Two different kinds of stops are displayed: bus stops and taxi stops.
 
-## AccraMobile3
+### AccraMobile3
 
 ![](https://densitydesign.org/wp-content/uploads/2019/04/accra_trotro-768x449.png)
 
@@ -148,7 +161,7 @@ AccraMobile3 was an initiative that involved Accra Metropolitan Assembly, Jungle
 AccraMobile3 map is a thematic map of the city of Accra. On the map, all the Trotro lines are displayed at once and with the same colour. By selecting a specific route on the right panel, that bus line and its stops are highlighted in a different colour. There aren’t any markers or name to distinguish routes and bus stops.
 
 ## Technologies
-### Technologies used to display data
+#### Technologies used to display data
 The data obtained during these projects are mostly displayed in printable transit maps. But some projects keep data also in digital form so that it’s easier to keep the maps updated. None of the projects described has a mobile phone functioning app.
 
 - **OpenStreetMap** is a collaborative project to create a map of the world. Anyone can edit a map on OpenStreetMap and it is completely open source. However, the primary output of this project is the data that generates.
@@ -166,17 +179,9 @@ Moreover there are also consortia of geo-data related tools. None of the project
 - **Open Geospatial Consortium** is an international not for profit organization committed to making quality open standards for the global geospatial community. These standards are made through a consensus process and are freely available for anyone to use to improve sharing of the world’s geospatial data.
 
 
-### Technologies used to collect data
+#### Technologies used to collect data
 Most of the projects described used GPS Mobile Apps to collect information about informal transports. In projects were grassroots users or large communities are involved, it is not specified how the data is collected.
 
 - OpenMapKit is an extension of OpenDataKit. It allows users to create mobile data collection surveys for field data collection.ODK tools allow everyone to create offline mobile surveys to collect field data. The data are then uploaded to a server when the mobile phone is online again. OMK extension is an android mobile application for browsing OpenStreetMap features to create and edit OSM tags.
 - Open GPS Tracker is a small device which can be plugged into a prepaid mobile phone to make it a GPS tracker. The Tracker responds to text message commands, detects motion, and sends you its exact position. The tracker outputs a file for Google Maps or any mapping software. The Tracker firmware is open source and user-customizable.
 - Gaia GPS and Trails are hiking apps. One of their function is to record the hiking trails and trips that a user follow.
-
-## Vocabulary
-
-**GTFS**: General Transit Feed Specification, defines a common format for public transportation schedules and associated geographic information.
-
-**Thematic Map**: a type of map that focuses on a specific theme or subject area. These kinds of maps stress spatial variation of one or a small number of geographic distributions. source
-
-**Topological Map**: a type of diagram that has been simplified so that only vital information remains and unnecessary detail has been removed. These maps lack scale, and distance and direction are subject to change and variation, but the relationship between points is maintained.
