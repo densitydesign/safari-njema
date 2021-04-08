@@ -20,19 +20,29 @@ events:
     to elaborate more holistic urban and mobility policies.
 - title: Project presentation at the Sustainable Mobility week 2019
   type: event
-  cover:
+  cover: 
   calendar: 16/09/2019 → 20/09/2019
   location: Maputo
   desc: The sustainable mobility week of 2019 in Maputo has been the occasion to officially
     set the ground for the collaboration with our local project partners, in particular
-    with the AMT. The project team was present at the event as one of the main partners and actors to discuss paths forward for an inclusive, sustainable and user-oriented mobility. Safari Njema project presented the innovative methodology to study present mobility scenarios and to prepare the ground for a renewal of the transport offer through the use of big data. Project members also supported the Mapathon, an initiative promoted by the NGO MApeando Meu Bairro, for data gathering and mapping.
+    with the AMT. The project team was present at the event as one of the main partners
+    and actors to discuss paths forward for an inclusive, sustainable and user-oriented
+    mobility. Safari Njema project presented the innovative methodology to study present
+    mobility scenarios and to prepare the ground for a renewal of the transport offer
+    through the use of big data. Project members also supported the Mapathon, an initiative
+    promoted by the NGO MApeando Meu Bairro, for data gathering and mapping.
 - title: International workshop "Big data and Policy Design – Addressing new societal
     challenges"
   type: event
   cover: assets/images/events/event2.JPG
   calendar: 27/01/2020 → 28/01/2020
   location: Milan
-  desc: As a result of the established network of actors working in Maputo on sustainable mobility, the Safari team invited various actors to participate to an international workshop organized by DAStU Department and held at Politecnico di Milano. Participants included MIT researchers and UN-Habitat members arrived from all over the world to jointly discuss the preliminary findings of the different initiatives and exchanging ideas regarding the possible ways forward.
+  desc: As a result of the established network of actors working in Maputo on sustainable
+    mobility, the Safari team invited various actors to participate to an international
+    workshop organized by DAStU Department and held at Politecnico di Milano. Participants
+    included MIT researchers and UN-Habitat members arrived from all over the world
+    to jointly discuss the preliminary findings of the different initiatives and exchanging
+    ideas regarding the possible ways forward.
 - title: Signature of the Agreement of Cooperation with the Metropolitan Agency of
     Maputo
   type: event
@@ -56,10 +66,14 @@ events:
 - title: Interdisciplinary teaching module "Exploring and Enhancing people mobility
     through big data"
   type: event
-  cover:
+  cover: 
   calendar: 30/11/2020 → 01/12/2020
   location: Milan and Maputo
-  desc:  In collaboration with the Espaço de Inovação of the University Eduardo Mondlane (Faculty of Informatics), the project organized a week of interdisciplinary online training offer for students of several faculties as well as for practitioners and civil servants/officers of different institutions involved in urban and mobility decision making processes.
+  desc: In collaboration with the Espaço de Inovação of the University Eduardo Mondlane
+    (Faculty of Informatics), the project organized a week of interdisciplinary online
+    training offer for students of several faculties as well as for practitioners
+    and civil servants/officers of different institutions involved in urban and mobility
+    decision making processes.
 layout: events
 ---
 
