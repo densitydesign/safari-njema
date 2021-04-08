@@ -2,44 +2,58 @@ team:
 - contact: Simone Vantini
   role: Scientific Coordinator
   department: Department of Mathematics
+  photo: "/assets/images/team/vantini.jpeg"
 - contact: Michela Arnaboldi
   role: Project Manager
   department: Department of Management, Economics and Industrial Engineering
+  photo: "/assets/images/team/arnaboldi.jpeg"
 - contact: Valeria Fedeli
   department: Department of Architecture and Urban Studies
+  photo: "/assets/images/team/fedeli.jpeg"
 - contact: Grazia Concilio
   department: Department of Architecture and Urban Studies
+  photo: "/assets/images/team/concilio.jpeg"
 - contact: Michele Mauri
   department: Department of Design
+  photo: "/assets/images/team/mauri.jpeg"
 - contact: Marco Brambilla
   department: Department of Electronics, Information And Bioengineering
+  photo: "/assets/images/team/brambilla.jpeg"
 - contact: Paola Riva
   department: Department of Management, Economics and Industrial Engineering
+  photo: "/assets/images/team/riva.jpeg"
 - contact: Anna Calissano
   department: Department of Mathematics, Department of Architecture and Urban Studies
+  photo: "/assets/images/team/calissano.jpeg"
 - contact: Francesco Leoni
   department: Department of Design, Department of Architecture and Urban Studies
+  photo: "/assets/images/team/leoni.jpeg"
 - contact: Francesco Fagiani
   department: Department of Architecture and Urban Studies
+  photo: "/assets/images/team/fagiani.jpeg"
 - contact: Andrea Benedetti
   department: Department of Design
+  photo: "/assets/images/team/benedetti.jpeg"
 - contact: Andrea Mascaretti
   department: Department of Mathematics
+  photo: "/assets/images/team/mascaretti.jpeg"
 - contact: Emre Calisir
   department: Department of Electronics, Information And Bioengineering
+  photo: "/assets/images/team/calisir.jpeg"
 - contact: Gianluca Zeni
   department: Department of Mathematics
+  photo: "/assets/images/team/zeni.jpeg"
 - contact: Mattia Gasparini
   department: Department of Electronics, Information And Bioengineering
+  photo: "/assets/images/team/gasparini.jpeg"
 - contact: Anna Mazzolini
   department: Department of Architecture and Urban Studies
+  photo: "/assets/images/team/mazzolini.jpeg"
 master:
 - contact: Elena Castelli
   department: MSc in Management, Economics and Industrial Engineering
-
 - contact: Alessandro Perego
   department: Department of Electronics, Information And Bioengineering
-
 - contact: Celeste Principi
   department: MSc in Mathematical Engineering
 - contact: Irene Azzini

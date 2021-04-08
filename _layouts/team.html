@@ -12,6 +12,7 @@ layout: default
     <h2>People</h2>
     {%- for people in site.data.people.team -%}
       <div>
+        <img src="{{ people.photo | relative_url }}" width="150" style="margin-left: 0; margin-bottom: 1rem;">
         <p><b>{{ people.contact }}</b></p>
         <p>{{ people.department }}</p>
         <p><i>{{ people.role }}</i></p>
