@@ -10,7 +10,6 @@ sources:
   description: Data are provided by the official GIS portal of the Mozambican Ministry
     of Transport.
 - name: High Resolution Settlement Layer (HRSL)
-  link: https://google.com
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt
 - name: OSM Road Network
@@ -19,10 +18,7 @@ sources:
     tempor incididunt
 - name: Financial services (POS, ATM, Banks, Money exchange)
   link: https://www.mozgis.gov.mz/portal/home/item.html?id=93c32bb32cad4e9b84b0123695cdc376
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt
 - name: Education system
-  link: https://www.google.com/maps/
 - name: Google Earth Imagery
   link: https://www.google.it/intl/it/earth/index.html
 layout: output
